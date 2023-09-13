@@ -27,8 +27,8 @@ dependencies {
     // https://mvnrepository.com/artifact/com.h2database/h2
     implementation("com.h2database:h2:2.2.222")
 
-    implementation("io.springfox:springfox-swagger2:2.9.2")
-    implementation("io.springfox:springfox-swagger-ui:2.9.2")
+// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
 
 
 
