@@ -10,4 +10,7 @@ class DemoController(private val service: DemoService) {
 
     @GetMapping("/demos")
     fun getDemos(): List<DemoEntity> = listOf(service.getDemoValue())
+
+    @GetMapping("/demos2")
+    fun getDemos2(): String = "new-demo-2"
 }
