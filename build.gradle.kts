@@ -30,7 +30,7 @@ dependencies {
 // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
 
-
+    implementation("com.amazonaws:aws-java-sdk-dynamodb:1.12.556")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
