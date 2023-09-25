@@ -1,13 +1,11 @@
 package pl.oczadly.ebs.demo.controller
 
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.RequestParam
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 import pl.oczadly.ebs.demo.entity.Product
 import pl.oczadly.ebs.demo.service.ProductService
 
-@RestController("/products")
+@RestController
+@RequestMapping("/products")
 class ProductController(private val service: ProductService) {
 
     @GetMapping
