@@ -9,10 +9,11 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
+import org.springframework.core.env.Environment
 
 
 @Configuration
-class DynamoDBConfig {
+class DynamoDBConfig(private val environment: Environment) {
     @Value("\${amazon.dynamodb.endpoint}")
     private val amazonDynamoDBEndpoint: String? = null
 
@@ -23,6 +24,6 @@ class DynamoDBConfig {
                 AwsClientBuilder.EndpointConfiguration(amazonDynamoDBEndpoint, "us-east-1")).build()
     }
 
-    fun credentialsProvider(): AWSCredentialsProvider = if ("aws" == System.getProperty("spring.profiles.active")) InstanceProfileCredentialsProvider.getInstance() else EnvironmentVariableCredentialsProvider()
+    fun credentialsProvider(): AWSCredentialsProvider = if (environment.activeProfiles.any { it == "aws" }) InstanceProfileCredentialsProvider.getInstance() else EnvironmentVariableCredentialsProvider()
 
 }
