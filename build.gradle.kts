@@ -32,6 +32,8 @@ dependencies {
 
     implementation("com.amazonaws:aws-java-sdk-dynamodb:1.12.556")
 
+    implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
