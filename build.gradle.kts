@@ -35,6 +35,8 @@ dependencies {
     implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("io.mockk:mockk:1.13.8")
+
 }
 
 tasks.withType<KotlinCompile> {
