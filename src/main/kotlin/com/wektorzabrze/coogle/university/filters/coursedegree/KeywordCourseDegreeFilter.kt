@@ -1,7 +1,7 @@
 package com.wektorzabrze.coogle.university.filters.coursedegree
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.wektorzabrze.coogle.infrastructure.swagger.asList
+import com.wektorzabrze.coogle.infrastructure.asList
 import com.wektorzabrze.coogle.university.CourseDegree
 import org.springframework.stereotype.Component
 
