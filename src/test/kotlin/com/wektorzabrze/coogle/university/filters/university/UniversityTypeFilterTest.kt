@@ -1,16 +1,15 @@
-package com.wektorzabrze.coogle.university
+package com.wektorzabrze.coogle.university.filters.university
 
-import io.mockk.impl.annotations.MockK
+import com.wektorzabrze.coogle.university.Parameter
+import com.wektorzabrze.coogle.university.University
+import com.wektorzabrze.coogle.university.UniversityType
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import pl.oczadly.ebs.demo.entity.DemoEntity
-import pl.oczadly.ebs.demo.repository.TestRepository
-import pl.oczadly.ebs.demo.service.DemoService
 
 class UniversityTypeFilterTest{
 
     @Test
-    fun shouldGetPrivateUniversities() {
+    fun `should filter only private universities`() {
         val result = UniversityTypeFilter().filter(
             listOf(
                 University(listOf(), UniversityType.PRIVATE),
@@ -24,7 +23,7 @@ class UniversityTypeFilterTest{
     }
 
     @Test
-    fun shouldGetPublicUniversities() {
+    fun `should filter only public universities`() {
         val result = UniversityTypeFilter().filter(
             listOf(
                 University(listOf(), UniversityType.PRIVATE),
