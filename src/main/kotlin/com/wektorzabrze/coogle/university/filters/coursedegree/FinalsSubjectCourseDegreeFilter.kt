@@ -18,7 +18,7 @@ class FinalsSubjectCourseDegreeFilter(val objectMapper: ObjectMapper) : CourseDe
             }
 
     override val discriminator: String
-        get() = "finalsSubject"
+        get() = "finalsSubjects"
 
     private fun mapFilterValue(filterValue: String): List<String> =
         objectMapper.asList(filterValue, String::class.java)
