@@ -12,7 +12,7 @@ class FinalsSubjectCourseDegreeFilterTest {
     private val sut = FinalsSubjectCourseDegreeFilter(ObjectMapper())
 
     @Test
-    fun `should return correct discriminator`() = assertEquals("finalsSubject", sut.discriminator)
+    fun `should return correct discriminator`() = assertEquals("finalsSubjects", sut.discriminator)
 
     @Test
     fun `should filter based on multiple value filter`() {
