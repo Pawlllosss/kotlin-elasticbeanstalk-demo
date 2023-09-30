@@ -1,4 +1,4 @@
-package com.wektorzabrze.coogle.infrastructure.swagger
+package com.wektorzabrze.coogle.infrastructure
 
 import com.fasterxml.jackson.databind.ObjectMapper
 
