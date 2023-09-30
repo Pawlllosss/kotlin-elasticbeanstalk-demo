@@ -16,7 +16,7 @@ class UniversityTypeFilterTest{
                 University(listOf(), UniversityType.PUBLIC),
                 University(listOf(), UniversityType.PRIVATE),
             ),
-            parameter = Parameter("universityType", "PRIVATE")
+            value = "PRIVATE"
         )
 
         assertEquals(2, result.size)
@@ -30,7 +30,7 @@ class UniversityTypeFilterTest{
                 University(listOf(), UniversityType.PUBLIC),
                 University(listOf(), UniversityType.PRIVATE),
             ),
-            parameter = Parameter("universityType", "PUBLIC")
+            value = "PUBLIC"
         )
         assertEquals(1, result.size)
     }

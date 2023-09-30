@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component
 
 @Component
 class UniversityTypeFilter: UniversitySearchFilter {
-    override fun filter(universities: Collection<University>, parameter: Parameter): Collection<University> =
-        universities.filter { uni-> uni.type.equals(UniversityType.valueOf(parameter.value))}
+    override fun filter(universities: Collection<University>, value: String): Collection<University> =
+        universities.filter { uni-> uni.type.equals(UniversityType.valueOf(value))}
 
     override val discriminator: String
         get() = "universityType"
