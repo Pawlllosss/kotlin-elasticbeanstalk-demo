@@ -1,0 +1,314 @@
+[
+    {
+        "name": "Akademia Górniczo-Hutnicza",
+        "courseDegrees": [
+            {
+                "name": "Informatyka",
+                "description": "Zdobądź podstawy informatyki i programowania.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "interests": ["Programowanie", "Analiza Danych"],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Elektronika",
+                "description": "Studiuj systemy elektryczne, elektronikę i inżynierię energetyczną.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "interests": ["Energia Odnawialna", "Projektowanie Elektroniki"],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 90
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Inżynieria Mechaniczna",
+                "description": "Zdobądź podstawy mechaniki i projektowania systemów mechanicznych.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "interests": ["Inżynieria Samochodowa", "Robotyka"],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Górnictwo",
+                "description": "Zbadaj ekstrakcję cennych minerałów z ziemi.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Chemia"],
+                "interests": ["Operacje Górnicze", "Zrównoważone Zarządzanie Zasobami"],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Matematyka Stosowana",
+                "description": "Studiuj teorie matematyczne i ich praktyczne zastosowania.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "interests": ["Modelowanie Matematyczne", "Analiza Numeryczna"],
+                "occupancy": {
+                    "noPlaces": 90,
+                    "noCandidates": 70
+                },
+                "language": "Polski"
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Kraków",
+            "street": "Mickiewicza",
+            "buildingNumber": "30"
+        },
+        "coordinates": {
+            "latitude": 50.0671,
+            "longitude": 19.9073
+        },
+        "amenities": [
+            {
+                "name": "Kawiarnia na Kampusie",
+                "type": "RESTAURANT",
+                "distance": 200
+            },
+            {
+                "name": "Centrum Rekreacji Studenckiej",
+                "type": "RECREATION",
+                "distance": 300
+            },
+            {
+                "name": "Księgarnia",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            }
+        ],
+        "accessibilitiesForDisabled": ["Rampa", "Winda", "Schody Ruchome", "Audiodeskrypcja", "Przyciski Braille'a"],
+        "clubs": [
+            {
+                "name": "Klub Programistyczny",
+                "description": "Społeczność studentów pasjonujących się programowaniem."
+            },
+            {
+                "name": "Stowarzyszenie Inżynierów",
+                "description": "Łączenie studentów inżynierii i promowanie innowacji."
+            }
+        ]
+    },
+    {
+        "name": "Uniwersytet Jagielloński",
+        "courseDegrees": [
+            {
+                "name": "Fizyka",
+                "description": "Zbadaj podstawowe zasady materii i energii.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Chemia"],
+                "interests": ["Fizyka Teoretyczna", "Fizyka Eksperymentalna"],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Medycyna",
+                "description": "Studiuj naukę i praktykę diagnozowania, leczenia i zapobiegania chorobom.",
+                "qualifyingSubjects": ["Biologia", "Chemia", "Fizyka"],
+                "interests": ["Badania Medyczne", "Opieka Nad Pacjentem"],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 90
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Inżynieria Komputerowa",
+                "description": "Łącz zasady informatyki z inżynierią elektryczną.",
+                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "interests": ["Projektowanie Sprzętu", "Programowanie"],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Biotechnologia",
+                "description": "Stosuj procesy biologiczne, organizmy lub systemy do opracowywania nowych technologii.",
+                "qualifyingSubjects": ["Biologia", "Chemia", "Matematyka"],
+                "interests": ["Zastosowania Biomedyczne", "Biotechnologia Środowiskowa"],
+                "occupancy": {
+                    "noPlaces": 90,
+                    "noCandidates": 70
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Geografia",
+                "description": "Studiuj krajobrazy, środowiska i związki między ludźmi a ich środowiskiem.",
+                "qualifyingSubjects": ["Geografia", "Biologia", "Matematyka"],
+                "interests": ["Studia Środowiskowe", "Planowanie Przestrzenne"],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski"
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Kraków",
+            "street": "Gołębia",
+            "buildingNumber": "24"
+        },
+        "coordinates": {
+            "latitude": 50.0537,
+            "longitude": 19.9353
+        },
+        "amenities": [
+            {
+                "name": "Biblioteka Uniwersytecka",
+                "type": "EDUCATIONAL",
+                "distance": 100
+            },
+            {
+                "name": "Pałac Wiedzy",
+                "type": "EDUCATIONAL",
+                "distance": 650
+            },
+            {
+                "name": "Restauracja Wykwintna",
+                "type": "RESTAURANT",
+                "distance": 250
+            },
+            {
+                "name": "Oaza Zen Fitness",
+                "type": "RECREATION",
+                "distance": 800
+            },
+            {
+                "name": "Budynek Centrum Społecznego",
+                "type": "EDUCATIONAL",
+                "distance": 350
+            }
+        ],
+        "accessibilitiesForDisabled": ["Rampa", "Winda", "Podjazd Dla Rowerów", "Tablica Komunikacyjna", "Asystent Osobisty"],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Fizyki",
+                "description": "Łączenie entuzjastów fizyki i organizowanie wydarzeń naukowych."
+            },
+            {
+                "name": "Studenckie Stowarzyszenie Medyczne",
+                "description": "Promowanie współpracy między studentami medycyny i profesjonalistami."
+            },
+            {
+                "name": "Klub Geograficzny",
+                "description": "Badanie zjawisk geograficznych i promowanie świadomości środowiskowej."
+            }
+        ]
+    },
+    {
+        "name": "Uniwersytet Ekonomiczny w Krakowie",
+        "courseDegrees": [
+            {
+                "name": "Ekonomia",
+                "description": "Studiuj produkcję, dystrybucję i konsumpcję dóbr i usług.",
+                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "interests": ["Polityka Gospodarcza", "Analiza Finansowa"],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Zarządzanie",
+                "description": "Badaj zasady planowania, organizacji i kierowania zasobami.",
+                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "interests": ["Przywództwo", "Strategia Biznesowa"],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 90
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Międzynarodowe Stosunki Gospodarcze",
+                "description": "Studiuj działalność gospodarczą, która obejmuje wymianę międzynarodową.",
+                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "interests": ["Globalny Marketing", "Międzynarodowe Finanse", "Zarządzanie Międzykulturowe"],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Finanse i Rachunkowość",
+                "description": "Badaj zarządzanie finansowe, zasady rachunkowości i strategie inwestycyjne.",
+                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "interests": ["Planowanie Finansowe", "Finanse Korporacyjne"],
+                "occupancy": {
+                    "noPlaces": 90,
+                    "noCandidates": 70
+                },
+                "language": "Polski"
+            },
+            {
+                "name": "Informatyka w Zarządzaniu",
+                "description": "Stosuj technologię informacyjną do wsparcia zarządzania i podejmowania decyzji.",
+                "qualifyingSubjects": ["Informatyka", "Matematyka", "Angielski"],
+                "interests": ["Analiza Danych", "Governance IT"],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski"
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Kraków",
+            "street": "Rakowicka",
+            "buildingNumber": "27"
+        },
+        "coordinates": {
+            "latitude": 50.0647,
+            "longitude": 19.9406
+        },
+        "amenities": [
+            {
+                "name": "Biblioteka Ekonomii i Biznesu",
+                "type": "EDUCATIONAL",
+                "distance": 120
+            },
+            {
+                "name": "Mado",
+                "type": "SHOP",
+                "distance": 180
+            },
+            {
+                "name": "Centrum Studenckie",
+                "type": "RECREATION",
+                "distance": 250
+            }
+        ],
+        "accessibilitiesForDisabled": ["Rampa", "Winda", "Podjazd Dla Rowerów", "Tablica Komunikacyjna", "Asystent Osobisty"],
+        "clubs": [
+            {
+                "name": "Klub Ekonomii",
+                "description": "Promowanie dyskusji ekonomicznych i organizacja wydarzeń na temat trendów gospodarczych."
+            },
+            {
+                "name": "Stowarzyszenie Zarządzania",
+                "description": "Łączenie studentów zainteresowanych zasadami i praktykami zarządzania."
+            },
+            {
+                "name": "Międzynarodowa Sieć Biznesowa",
+                "description": "Promowanie wymiany kulturowej i zrozumienia w kontekście biznesowym."
+            }
+        ]
+    }
+]

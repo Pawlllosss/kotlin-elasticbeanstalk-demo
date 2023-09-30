@@ -1,6 +1,5 @@
 package com.wektorzabrze.coogle.university.filters.university
 
-import com.wektorzabrze.coogle.university.Parameter
 import com.wektorzabrze.coogle.university.University
 import com.wektorzabrze.coogle.university.UniversityType
 import org.junit.jupiter.api.Assertions.*

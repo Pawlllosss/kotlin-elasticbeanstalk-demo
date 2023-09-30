@@ -1,20 +1,19 @@
 package com.wektorzabrze.coogle.university.filters.university
 
-import com.wektorzabrze.coogle.university.Parameter
 import com.wektorzabrze.coogle.university.University
-import com.wektorzabrze.coogle.university.UniversityType
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.wektorzabrze.coogle.university.Address
 
 class UniversityCityFilterTest{
     @Test
     fun `should filter only universities in Kraków`() {
         val result = UniversityCityFilter(jacksonObjectMapper()).filter(
             listOf(
-                University(listOf(), city="Kraków"),
-                University(listOf(), city="Wrocław"),
-                University(listOf(), city="Kraków"),
+                University(listOf(), address = Address(city = "Kraków")),
+                University(listOf(), address = Address(city = "Wrocław")),
+                University(listOf(), address = Address(city = "Kraków")),
             ),
             value = """["Kraków"]"""
         )
@@ -26,9 +25,9 @@ class UniversityCityFilterTest{
     fun `should filter only universities in Kraków and Wrocław`() {
         val result = UniversityCityFilter(jacksonObjectMapper()).filter(
             listOf(
-                University(listOf(), city="Kraków"),
-                University(listOf(), city="Wrocław"),
-                University(listOf(), city="Kraków"),
+                University(listOf(), address = Address(city = "Kraków")),
+                University(listOf(), address = Address(city = "Wrocław")),
+                University(listOf(), address = Address(city = "Kraków")),
             ),
             value = """["Kraków", "Wrocław"]"""
         )
@@ -40,10 +39,10 @@ class UniversityCityFilterTest{
     fun `should filter all universities`() {
         val result = UniversityCityFilter(jacksonObjectMapper()).filter(
             listOf(
-                University(listOf(), city="Kraków"),
-                University(listOf(), city="Wrocław"),
-                University(listOf(), city="Kraków"),
-                University(listOf(), city="Zbąszynek"),
+                University(listOf(), address = Address(city = "Kraków")),
+                University(listOf(), address = Address(city = "Wrocław")),
+                University(listOf(), address = Address(city = "Kraków")),
+                University(listOf(), address = Address(city = "Zbąszynek")),
             ),
             value =  """[]"""
         )
@@ -55,9 +54,9 @@ class UniversityCityFilterTest{
     fun `should filter non universities`() {
         val result = UniversityCityFilter(jacksonObjectMapper()).filter(
             listOf(
-                University(listOf(), city="Kraków"),
-                University(listOf(), city="Wrocław"),
-                University(listOf(), city="Kraków"),
+                University(listOf(), address = Address(city = "Kraków")),
+                University(listOf(), address = Address(city = "Wrocław")),
+                University(listOf(), address = Address(city = "Kraków")),
             ),
             value = """["Zbąszynek"]"""
         )
