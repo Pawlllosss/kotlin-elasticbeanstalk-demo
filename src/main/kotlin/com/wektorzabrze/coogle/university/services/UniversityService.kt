@@ -34,8 +34,7 @@ private fun getFileFromResources(filename: String): File {
 }
 
 
-private val mockData: String = """
-[
+private val mockData: String = """[
     {
         "name": "Akademia Górniczo-Hutnicza",
         "photoUrl": "https://galeria.bankier.pl/p/9/1/67dd4bfafb57a9-945-560-45-168-4455-2672.jpg",
@@ -50,7 +49,14 @@ private val mockData: String = """
                     "noCandidates": 80
                 },
                 "language": "Polski",
-                "occupations": ["Programista", "Analityk Danych", "Inżynier Oprogramowania"]
+                "occupations": ["Programista", "Analityk Danych", "Inżynier Oprogramowania"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.8,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 90
+                }
             },
             {
                 "name": "Elektronika",
@@ -62,7 +68,14 @@ private val mockData: String = """
                     "noCandidates": 90
                 },
                 "language": "Polski",
-                "occupations": ["Inżynier Elektroniki", "Projektant Układów Elektronicznych"]
+                "occupations": ["Inżynier Elektroniki", "Projektant Układów Elektronicznych"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "fizyka": 0.8,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 80
+                }
             },
             {
                 "name": "Inżynieria Mechaniczna",
@@ -74,7 +87,14 @@ private val mockData: String = """
                     "noCandidates": 120
                 },
                 "language": "Polski",
-                "occupations": ["Inżynier Mechanik", "Projektant Maszyn"]
+                "occupations": ["Inżynier Mechanik", "Projektant Maszyn"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "fizyka": 0.8,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 60
+                }
             },
             {
                 "name": "Górnictwo",
@@ -86,7 +106,14 @@ private val mockData: String = """
                     "noCandidates": 60
                 },
                 "language": "Polski",
-                "occupations": ["Inżynier Górnik", "Specjalista ds. Zrównoważonego Rozwoju"]
+                "occupations": ["Inżynier Górnik", "Specjalista ds. Zrównoważonego Rozwoju"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "fizyka": 0.8,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 30
+                }
             },
             {
                 "name": "Matematyka Stosowana",
@@ -98,7 +125,13 @@ private val mockData: String = """
                     "noCandidates": 70
                 },
                 "language": "Polski",
-                "occupations": ["Analityk Matematyczny", "Specjalista ds. Analizy Numerycznej"]
+                "occupations": ["Analityk Matematyczny", "Specjalista ds. Analizy Numerycznej"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 1.0
+                    },
+                    "minThreshold": 50
+                }
             }
         ],
         "type": "PUBLIC",
@@ -138,7 +171,9 @@ private val mockData: String = """
                 "name": "Stowarzyszenie Inżynierów",
                 "description": "Łączenie studentów inżynierii i promowanie innowacji."
             }
-        ]
+        ],
+        "siteURL": "https://www.agh.edu.pl/",
+        "scholarships": ["Stypendium socjalne"]
     },
     {
         "name": "Uniwersytet Jagielloński",
@@ -154,7 +189,13 @@ private val mockData: String = """
                     "noCandidates": 80
                 },
                 "language": "Polski",
-                "occupations": ["Badacz Fizyczny", "Nauczyciel Akademicki"]
+                "occupations": ["Badacz Fizyczny", "Nauczyciel Akademicki"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "fizyka": 1.0
+                    },
+                    "minThreshold": 90
+                }
             },
             {
                 "name": "Medycyna",
@@ -166,7 +207,14 @@ private val mockData: String = """
                     "noCandidates": 90
                 },
                 "language": "Polski",
-                "occupations": ["Lekarz", "Specjalista ds. Badań Medycznych"]
+                "occupations": ["Lekarz", "Specjalista ds. Badań Medycznych"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "bilogia": 0.5,
+                        "chemia": 0.5
+                    },
+                    "minThreshold": 95
+                }
             },
             {
                 "name": "Inżynieria Komputerowa",
@@ -178,7 +226,13 @@ private val mockData: String = """
                     "noCandidates": 60
                 },
                 "language": "Polski",
-                "occupations": ["Inżynier Komputerowy", "Programista Sprzętu"]
+                "occupations": ["Inżynier Komputerowy", "Programista Sprzętu"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 1.0
+                    },
+                    "minThreshold": 90
+                }
             },
             {
                 "name": "Biotechnologia",
@@ -190,7 +244,13 @@ private val mockData: String = """
                     "noCandidates": 70
                 },
                 "language": "Polski",
-                "occupations": ["Biotechnolog", "Specjalista ds. Badań Biomedycznych"]
+                "occupations": ["Biotechnolog", "Specjalista ds. Badań Biomedycznych"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "biologia": 1.0
+                    },
+                    "minThreshold": 45
+                }
             },
             {
                 "name": "Geografia",
@@ -202,7 +262,13 @@ private val mockData: String = """
                     "noCandidates": 120
                 },
                 "language": "Polski",
-                "occupations": ["Geograf", "Urbanista"]
+                "occupations": ["Geograf", "Urbanista"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "geografia": 1.0
+                    },
+                    "minThreshold": 30
+                }
             }
         ],
         "type": "PUBLIC",
@@ -256,7 +322,9 @@ private val mockData: String = """
                 "name": "Klub Geograficzny",
                 "description": "Badanie zjawisk geograficznych i promowanie świadomości środowiskowej."
             }
-        ]
+        ],
+        "siteURL": "https://www.uj.edu.pl/",
+        "scholarships": ["Stypendium socjalne", "Stypendium dla Olimpijczyków"]
     },
     {
         "name": "Uniwersytet Ekonomiczny w Krakowie",
@@ -272,7 +340,13 @@ private val mockData: String = """
                     "noCandidates": 80
                 },
                 "language": "Polski",
-                "occupations": ["Ekonomista", "Analityk Finansowy", "Konsultant ds. Polityki Gospodarczej"]
+                "occupations": ["Ekonomista", "Analityk Finansowy", "Konsultant ds. Polityki Gospodarczej"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 1.0
+                    },
+                    "minThreshold": 40
+                }
             },
             {
                 "name": "Zarządzanie",
@@ -284,7 +358,13 @@ private val mockData: String = """
                     "noCandidates": 90
                 },
                 "language": "Polski",
-                "occupations": ["Manager", "Specjalista ds. Zarządzania Zasobami Ludzkimi"]
+                "occupations": ["Manager", "Specjalista ds. Zarządzania Zasobami Ludzkimi"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 1.0
+                    },
+                    "minThreshold": 10
+                }
             },
             {
                 "name": "Międzynarodowe Stosunki Gospodarcze",
@@ -296,7 +376,13 @@ private val mockData: String = """
                     "noCandidates": 60
                 },
                 "language": "Polski",
-                "occupations": ["Specjalista ds. Międzynarodowych Stosunków Gospodarczych", "Dyplomata"]
+                "occupations": ["Specjalista ds. Międzynarodowych Stosunków Gospodarczych", "Dyplomata"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "polski": 1.0
+                    },
+                    "minThreshold": 30
+                }
             },
             {
                 "name": "Finanse i Rachunkowość",
@@ -308,7 +394,13 @@ private val mockData: String = """
                     "noCandidates": 70
                 },
                 "language": "Polski",
-                "occupations": ["Księgowy", "Controller Finansowy"]
+                "occupations": ["Księgowy", "Controller Finansowy"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 1.0
+                    },
+                    "minThreshold": 60
+                }
             },
             {
                 "name": "Informatyka w Zarządzaniu",
@@ -320,7 +412,13 @@ private val mockData: String = """
                     "noCandidates": 120
                 },
                 "language": "Polski",
-                "occupations": ["Specjalista ds. Informatyki Zarządczej", "Analityk Biznesowy"]
+                "occupations": ["Specjalista ds. Informatyki Zarządczej", "Analityk Biznesowy"],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 1.0
+                    },
+                    "minThreshold": 90
+                }
             }
         ],
         "type": "PUBLIC",
@@ -364,7 +462,8 @@ private val mockData: String = """
                 "name": "Międzynarodowa Sieć Biznesowa",
                 "description": "Promowanie wymiany kulturowej i zrozumienia w kontekście biznesowym."
             }
-        ]
+        ],
+        "siteURL": "https://uek.krakow.pl/",
+        "scholarships": ["Stypendium socjalne", "Stypendium Sportowe", "Stypendium dla Olimpijczyków"]
     }
-]
-""".trimIndent()
+]""".trimIndent()
