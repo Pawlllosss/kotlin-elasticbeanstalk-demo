@@ -17,7 +17,7 @@ class GraduationExamCourseDegreeFilter(val objectMapper: ObjectMapper) : CourseD
             .filter { courseDegree ->
                 val examResults = mapFilterValue(filterValue)
                 val intResult = examResults
-                    .map { graduateExam -> (courseDegree.examThreshold.subjectToWeightMap.getOrDefault(graduateExam.subject, BigDecimal.ZERO).times(graduateExam.result))}
+                    .map { graduateExam -> (courseDegree.examThreshold.subjectToWeightMap.getOrDefault(graduateExam.subject.lowercase(), BigDecimal.ZERO).times(graduateExam.result))}
                     .reduce { acc, next -> acc + next }.toInt()
                 intResult >= courseDegree.examThreshold.minThreshold.toInt()
             }
