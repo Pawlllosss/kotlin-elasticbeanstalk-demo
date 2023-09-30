@@ -41,6 +41,7 @@ private val mockData: String = """[
         "courseDegrees": [
             {
                 "name": "Informatyka",
+                "category": "INFORMATION",
                 "description": "Zdobądź podstawy informatyki i programowania.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Programowanie", "Analiza Danych"],
@@ -60,6 +61,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Elektronika",
+                "category": "ENGINEERING",
                 "description": "Studiuj systemy elektryczne, elektronikę i inżynierię energetyczną.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Energia Odnawialna", "Projektowanie Elektroniki"],
@@ -79,6 +81,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Inżynieria Mechaniczna",
+                "category": "ENGINEERING",
                 "description": "Zdobądź podstawy mechaniki i projektowania systemów mechanicznych.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Inżynieria Samochodowa", "Robotyka"],
@@ -98,6 +101,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Górnictwo",
+                "category": "ENGINEERING",
                 "description": "Zbadaj ekstrakcję cennych minerałów z ziemi.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Chemia"],
                 "interests": ["Operacje Górnicze", "Zrównoważone Zarządzanie Zasobami"],
@@ -117,6 +121,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Matematyka Stosowana",
+                "category": "SCIENCE",
                 "description": "Studiuj teorie matematyczne i ich praktyczne zastosowania.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Modelowanie Matematyczne", "Analiza Numeryczna"],
@@ -181,6 +186,7 @@ private val mockData: String = """[
         "courseDegrees": [
             {
                 "name": "Fizyka",
+                "category": "SCIENCE",
                 "description": "Zbadaj podstawowe zasady materii i energii.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Chemia"],
                 "interests": ["Fizyka Teoretyczna", "Fizyka Eksperymentalna"],
@@ -199,6 +205,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Medycyna",
+                "category": "MEDICINE",
                 "description": "Studiuj naukę i praktykę diagnozowania, leczenia i zapobiegania chorobom.",
                 "finalsSubjects": ["Biologia", "Chemia", "Fizyka"],
                 "interests": ["Badania Medyczne", "Opieka Nad Pacjentem"],
@@ -218,6 +225,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Inżynieria Komputerowa",
+                "category": "ENGINEERING",
                 "description": "Łącz zasady informatyki z inżynierią elektryczną.",
                 "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Projektowanie Sprzętu", "Programowanie"],
@@ -236,6 +244,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Biotechnologia",
+                "category": "SCIENCE",
                 "description": "Stosuj procesy biologiczne, organizmy lub systemy do opracowywania nowych technologii.",
                 "finalsSubjects": ["Biologia", "Chemia", "Matematyka"],
                 "interests": ["Zastosowania Biomedyczne", "Biotechnologia Środowiskowa"],
@@ -254,6 +263,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Geografia",
+                "category": "NATURAL",
                 "description": "Studiuj krajobrazy, środowiska i związki między ludźmi a ich środowiskiem.",
                 "finalsSubjects": ["Geografia", "Biologia", "Matematyka"],
                 "interests": ["Studia Środowiskowe", "Planowanie Przestrzenne"],
@@ -332,6 +342,7 @@ private val mockData: String = """[
         "courseDegrees": [
             {
                 "name": "Ekonomia",
+                "category": "BUSINESS_AND_ECONOMICS",
                 "description": "Studiuj produkcję, dystrybucję i konsumpcję dóbr i usług.",
                 "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Polityka Gospodarcza", "Analiza Finansowa"],
@@ -350,6 +361,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Zarządzanie",
+                "category": "BUSINESS_AND_ECONOMICS",
                 "description": "Badaj zasady planowania, organizacji i kierowania zasobami.",
                 "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Przywództwo", "Strategia Biznesowa"],
@@ -368,6 +380,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Międzynarodowe Stosunki Gospodarcze",
+                "category": "BUSINESS_AND_ECONOMICS",
                 "description": "Studiuj działalność gospodarczą, która obejmuje wymianę międzynarodową.",
                 "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Globalny Marketing", "Międzynarodowe Finanse", "Zarządzanie Międzykulturowe"],
@@ -386,6 +399,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Finanse i Rachunkowość",
+                "category": "BUSINESS_AND_ECONOMICS",
                 "description": "Badaj zarządzanie finansowe, zasady rachunkowości i strategie inwestycyjne.",
                 "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Planowanie Finansowe", "Finanse Korporacyjne"],
@@ -404,6 +418,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Informatyka w Zarządzaniu",
+                "category": "INFORMATION",
                 "description": "Stosuj technologię informacyjną do wsparcia zarządzania i podejmowania decyzji.",
                 "finalsSubjects": ["Informatyka", "Matematyka", "Angielski"],
                 "interests": ["Analiza Danych", "Governance IT"],

@@ -1,5 +1,6 @@
 package com.wektorzabrze.coogle.university
 
+import com.wektorzabrze.coogle.CourseDegreeCategory
 import java.math.BigDecimal
 
 data class CourseDegree(
@@ -18,6 +19,7 @@ data class CourseDegree(
             "ang" to BigDecimal.valueOf(0.2)
         ),
         minThreshold = BigDecimal.valueOf(90)
-    )
+    ),
+    val category: CourseDegreeCategory = CourseDegreeCategory.INFORMATION
 
 )
