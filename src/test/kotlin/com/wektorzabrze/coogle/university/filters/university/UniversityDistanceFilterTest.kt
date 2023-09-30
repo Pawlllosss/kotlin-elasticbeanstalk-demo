@@ -13,13 +13,13 @@ class UniversityDistanceFilterTest{
     
     @Test
     fun `Polaniec should be in less than 200km distanece from Kraków`() {
-        val result = UniversityDistanceFilter(jacksonObjectMapper()).filter(listOf(University(listOf(), coordinates = Coordinates(latitude = 50.43324, longitude = 21.2812))), value = """{"userCoordinates": {"latitude": 50.06143, "longitude": 19.93658}, "distance": 200}""")
+        val result = UniversityDistanceFilter(jacksonObjectMapper()).filter(listOf(University(coordinates = Coordinates(latitude = 50.43324, longitude = 21.2812))), value = """{"userCoordinates": {"latitude": 50.06143, "longitude": 19.93658}, "distance": 200}""")
         assertEquals(1, result.size)
     }
 
     @Test
     fun `0 0 cords should be not in less than 200km distanece from Kraków`() {
-        val result = UniversityDistanceFilter(jacksonObjectMapper()).filter(listOf(University(listOf(), coordinates = Coordinates(latitude = 0.0, longitude = 0.0))), value = """{"userCoordinates": {"latitude": 50.06143, "longitude": 19.93658}, "distance": 200}""")
+        val result = UniversityDistanceFilter(jacksonObjectMapper()).filter(listOf(University(coordinates = Coordinates(latitude = 0.0, longitude = 0.0))), value = """{"userCoordinates": {"latitude": 50.06143, "longitude": 19.93658}, "distance": 200}""")
         assertEquals(0, result.size)
     }
 }

@@ -29,7 +29,7 @@ class SearchServiceTest {
         @MockK universityService: UniversityService
     ) {
         val courseDegrees = listOf(CourseDegree(name = courseDegreeSearchValue))
-        val universities = listOf(University(courseDegrees))
+        val universities = listOf(University(courseDegrees = courseDegrees))
         every { universityFilter.discriminator } returns universitySearchDiscriminator
         every { universityFilter.filter(universities, any()) } returns universities
         every { courseDegreeFilter.discriminator } returns courseDegreeSearchDiscriminator

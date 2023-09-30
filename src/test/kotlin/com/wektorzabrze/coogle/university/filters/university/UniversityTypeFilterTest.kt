@@ -11,9 +11,9 @@ class UniversityTypeFilterTest{
     fun `should filter only private universities`() {
         val result = UniversityTypeFilter().filter(
             listOf(
-                University(listOf(), UniversityType.PRIVATE),
-                University(listOf(), UniversityType.PUBLIC),
-                University(listOf(), UniversityType.PRIVATE),
+                University(type = UniversityType.PRIVATE),
+                University(type = UniversityType.PUBLIC),
+                University(type = UniversityType.PRIVATE),
             ),
             value = "PRIVATE"
         )
@@ -25,9 +25,9 @@ class UniversityTypeFilterTest{
     fun `should filter only public universities`() {
         val result = UniversityTypeFilter().filter(
             listOf(
-                University(listOf(), UniversityType.PRIVATE),
-                University(listOf(), UniversityType.PUBLIC),
-                University(listOf(), UniversityType.PRIVATE),
+                University(type = UniversityType.PRIVATE),
+                University(type = UniversityType.PUBLIC),
+                University(type = UniversityType.PRIVATE),
             ),
             value = "PUBLIC"
         )
