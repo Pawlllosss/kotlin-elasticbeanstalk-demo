@@ -40,8 +40,3 @@ class UniversityDistanceFilter(val mapper: ObjectMapper): UniversitySearchFilter
     }
 }
 
-fun main() {
-    println()
-
-}
-

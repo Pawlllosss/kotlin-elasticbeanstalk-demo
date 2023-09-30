@@ -22,7 +22,7 @@ class GraduationExamCourseDegreeFilter(val objectMapper: ObjectMapper) : CourseD
                 intResult >= courseDegree.examThreshold.minThreshold.toInt()
             }
     override val discriminator: String
-        get() = "finalsSubjects"
+        get() = "graduationExamResults"
 
     private fun mapFilterValue(filterValue: String): List<GraduateExamThreshold> =
         objectMapper.asList(filterValue, GraduateExamThreshold::class.java)

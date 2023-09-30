@@ -11,13 +11,22 @@ import java.io.File
 class UniversityService(objectMapper: ObjectMapper) {
 
     private lateinit var universities: Collection<University>
+
     init {
         universities = objectMapper.asList(mockData, University::class.java)
         println(universities)
     }
 
     fun getUniversities(): Collection<University> = universities.map { it.copy() }
+    fun addFavouriteUniversity(id: String) {
+        universities.first { it.id == id }.isFavourite = true
+    }
+
+    fun removeFavouriteUniversity(id: String) {
+        universities.first { it.id == id }.isFavourite = false
+    }
 }
+
 private fun getFileFromResources(filename: String): File {
     val resource = ClassPathResource(filename)
 
