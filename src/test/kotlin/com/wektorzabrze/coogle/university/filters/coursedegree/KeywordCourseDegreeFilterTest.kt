@@ -43,6 +43,7 @@ class KeywordCourseDegreeFilterTest {
         result shouldContainAll listOf(
             CourseDegree("Informatyka"),
             CourseDegree("Geoinformatyka"),
+            CourseDegree("Socjologia"),
             CourseDegree("Nieinfa", "Informatyka dla niemców")
         )
     }
