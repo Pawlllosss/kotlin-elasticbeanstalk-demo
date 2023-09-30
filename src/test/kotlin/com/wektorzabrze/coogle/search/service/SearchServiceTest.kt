@@ -28,7 +28,7 @@ class SearchServiceTest {
         @RelaxedMockK courseDegreeFilter: CourseDegreeSearchFilter,
         @MockK universityService: UniversityService
     ) {
-        val courseDegrees = listOf(CourseDegree())
+        val courseDegrees = listOf(CourseDegree(name = courseDegreeSearchValue))
         val universities = listOf(University(courseDegrees))
         every { universityFilter.discriminator } returns universitySearchDiscriminator
         every { universityFilter.filter(universities, any()) } returns universities
