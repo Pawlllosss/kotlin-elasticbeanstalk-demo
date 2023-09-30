@@ -3,7 +3,7 @@ package com.wektorzabrze.coogle.university.filters.coursedegree
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.wektorzabrze.coogle.university.CourseDegree
 import com.wektorzabrze.coogle.university.Parameter
-import io.kotest.matchers.collections.shouldHaveSingleElement
+import io.kotest.matchers.collections.shouldContainAll
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test
 
@@ -30,7 +30,9 @@ class KeywordCourseDegreeFilterTest {
         //given
         val courseDegrees = listOf(
             CourseDegree("Informatyka"),
-            CourseDegree("Socjologia")
+            CourseDegree("Socjologia"),
+            CourseDegree("Geoinformatyka"),
+            CourseDegree("Nieinfa", "Informatyka dla niemców")
         )
         val parameter = Parameter("keyword", """["Informatyka"]""")
 
@@ -38,7 +40,55 @@ class KeywordCourseDegreeFilterTest {
         val result = sut.filter(courseDegrees, parameter)
 
         //then
-        result shouldHaveSingleElement CourseDegree("Informatyka")
+        result shouldContainAll listOf(
+            CourseDegree("Informatyka"),
+            CourseDegree("Geoinformatyka"),
+            CourseDegree("Nieinfa", "Informatyka dla niemców")
+        )
+    }
+
+    @Test
+    fun `should properly handle multiple value filter`() {
+        //given
+        val courseDegrees = listOf(
+            CourseDegree("Informatyka"),
+            CourseDegree("Socjologia"),
+            CourseDegree("Pielęgniarstwo"),
+            CourseDegree("Chirurgia"),
+            CourseDegree("Geoinformatyka"),
+            CourseDegree("Nieinfa", "Informatyka dla niemców")
+        )
+        val parameter = Parameter("keyword", """["Informatyka", "socjologia"]""")
+
+        //when
+        val result = sut.filter(courseDegrees, parameter)
+
+        //then
+        result shouldContainAll listOf(
+            CourseDegree("Informatyka"),
+            CourseDegree("Socjologia"),
+            CourseDegree("Geoinformatyka"),
+            CourseDegree("Nieinfa", "Informatyka dla niemców")
+        )
+    }
+
+    @Test
+    fun `should properly empty filter list`() {
+        //given
+        val courseDegrees = listOf(
+            CourseDegree("Informatyka"),
+            CourseDegree("Socjologia")
+        )
+        val parameter = Parameter("keyword", """[]""")
+
+        //when
+        val result = sut.filter(courseDegrees, parameter)
+
+        //then
+        result shouldContainAll listOf(
+            CourseDegree("Informatyka"),
+            CourseDegree("Socjologia")
+        )
     }
 
 }
