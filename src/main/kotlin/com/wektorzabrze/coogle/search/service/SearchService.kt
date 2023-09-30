@@ -36,13 +36,13 @@ class SearchService(
         }
     }
 
-    fun getUniversityFiltersToApply(searchParameters: Map<String, String>): Map<UniversitySearchFilter, String> =
+    private fun getUniversityFiltersToApply(searchParameters: Map<String, String>): Map<UniversitySearchFilter, String> =
         searchParameters
             .filter { universitySearchFilterByDiscriminator.containsKey(it.key) }
             .map { universitySearchFilterByDiscriminator[it.key]!! to it.value }
             .toMap()
 
-    fun getCourseDegreesFiltersToApply(searchParameters: Map<String, String>): Map<CourseDegreeSearchFilter, String> =
+    private fun getCourseDegreesFiltersToApply(searchParameters: Map<String, String>): Map<CourseDegreeSearchFilter, String> =
         searchParameters
             .filter { courseDegreeSearchFilterByDiscriminator.containsKey(it.key) }
             .map { courseDegreeSearchFilterByDiscriminator[it.key]!! to it.value }
