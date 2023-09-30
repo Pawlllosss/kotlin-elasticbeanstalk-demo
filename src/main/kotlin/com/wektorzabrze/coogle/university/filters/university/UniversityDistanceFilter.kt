@@ -17,7 +17,7 @@ class UniversityDistanceFilter(val mapper: ObjectMapper): UniversitySearchFilter
     }
 
     override val discriminator: String
-        get() = "universityType"
+        get() = "distance"
 
 
     fun distanceBetweenLocations(location1: Coordinates, location2: Coordinates): Double {

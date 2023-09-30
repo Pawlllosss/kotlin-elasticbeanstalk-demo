@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test
 class UniversityDistanceFilterTest{
 
     @Test
+    fun `should return correct discriminator`() = assertEquals(UniversityDistanceFilter(jacksonObjectMapper()).discriminator, "distance")
+    
+    @Test
     fun `Polaniec should be in less than 200km distanece from Kraków`() {
         val result = UniversityDistanceFilter(jacksonObjectMapper()).filter(listOf(University(listOf(), coordinates = Coordinates(latitude = 50.43324, longitude = 21.2812))), value = """{"userCoordinates": {"latitude": 50.06143, "longitude": 19.93658}, "distance": 200}""")
         assertEquals(1, result.size)
