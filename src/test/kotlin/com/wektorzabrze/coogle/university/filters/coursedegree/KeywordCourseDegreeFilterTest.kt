@@ -2,7 +2,6 @@ package com.wektorzabrze.coogle.university.filters.coursedegree
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.wektorzabrze.coogle.university.CourseDegree
-import com.wektorzabrze.coogle.university.Parameter
 import io.kotest.matchers.collections.shouldContainAll
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test
@@ -15,10 +14,10 @@ class KeywordCourseDegreeFilterTest {
     fun `should properly handle empty course list`() {
         //given
         val courseDegrees = emptyList<CourseDegree>()
-        val parameter = Parameter("keyword", "Informatyka")
+        val filterValue = """["Informatyka"]"""
 
         //when
-        val result = sut.filter(courseDegrees, parameter)
+        val result = sut.filter(courseDegrees, filterValue)
 
         //then
         result shouldBe emptyList()
@@ -34,16 +33,15 @@ class KeywordCourseDegreeFilterTest {
             CourseDegree("Geoinformatyka"),
             CourseDegree("Nieinfa", "Informatyka dla niemców")
         )
-        val parameter = Parameter("keyword", """["Informatyka"]""")
+        val filterValue = """["Informatyka"]"""
 
         //when
-        val result = sut.filter(courseDegrees, parameter)
+        val result = sut.filter(courseDegrees, filterValue)
 
         //then
         result shouldContainAll listOf(
             CourseDegree("Informatyka"),
             CourseDegree("Geoinformatyka"),
-            CourseDegree("Socjologia"),
             CourseDegree("Nieinfa", "Informatyka dla niemców")
         )
     }
@@ -59,10 +57,10 @@ class KeywordCourseDegreeFilterTest {
             CourseDegree("Geoinformatyka"),
             CourseDegree("Nieinfa", "Informatyka dla niemców")
         )
-        val parameter = Parameter("keyword", """["Informatyka", "socjologia"]""")
+        val filterValue = """["Informatyka", "socjologia"]"""
 
         //when
-        val result = sut.filter(courseDegrees, parameter)
+        val result = sut.filter(courseDegrees, filterValue)
 
         //then
         result shouldContainAll listOf(
@@ -80,10 +78,10 @@ class KeywordCourseDegreeFilterTest {
             CourseDegree("Informatyka"),
             CourseDegree("Socjologia")
         )
-        val parameter = Parameter("keyword", """[]""")
+        val filterValue = """[]"""
 
         //when
-        val result = sut.filter(courseDegrees, parameter)
+        val result = sut.filter(courseDegrees, filterValue)
 
         //then
         result shouldContainAll listOf(
