@@ -1,5 +1,7 @@
 package com.wektorzabrze.coogle.university
 
+import java.math.BigDecimal
+
 data class CourseDegree(
     val name: String,
     val description: String = "",
@@ -10,5 +12,12 @@ data class CourseDegree(
     val occupations: Collection<String> = emptyList(),
     val language: String = "",
     val occupancy: Occupancy = Occupancy(1,0),
-    val examThreshold: ExamThreshold = ExamThreshold()
+    val examThreshold: ExamThreshold = ExamThreshold(
+        subjectToWeightMap = mapOf(
+            "mat" to BigDecimal.valueOf(0.8),
+            "ang" to BigDecimal.valueOf(0.2)
+        ),
+        minThreshold = BigDecimal.valueOf(90)
+    )
+
 )
