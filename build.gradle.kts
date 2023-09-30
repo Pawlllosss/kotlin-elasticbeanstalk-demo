@@ -8,7 +8,7 @@ plugins {
     kotlin("plugin.jpa") version "1.8.22"
 }
 
-group = "pl.oczadly.ebs"
+group = "com.wektorzabrze.coogle"
 version = "0.0.1-SNAPSHOT"
 
 java {

@@ -1,4 +1,4 @@
-package pl.oczadly.ebs.demo.configuration
+package com.wektorzabrze.coogle.infrastructure.swagger
 
 import io.swagger.v3.oas.models.OpenAPI
 import io.swagger.v3.oas.models.info.Info
@@ -11,9 +11,11 @@ import org.springframework.context.annotation.Configuration
 class SwaggerConfiguration {
     @Bean
     fun apiInfo(): OpenAPI {
-        return OpenAPI().info(Info().title("Test API of Kotlin API")
+        return OpenAPI().info(
+            Info().title("Test API of Kotlin API")
                 .description("Documentation for Test Kotlin API")
-                .version("v1"))
+                .version("v1")
+        )
     }
 
 }
