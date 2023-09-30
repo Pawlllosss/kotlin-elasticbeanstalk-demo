@@ -18,7 +18,7 @@ class KeywordCourseDegreeFilter(val objectMapper: ObjectMapper) : CourseDegreeSe
             }
 
     override val discriminator: String
-        get() = "keyword"
+        get() = "keywords"
 
     private fun mapFilterValue(filterValue: String): List<String> =
         objectMapper.asList(filterValue, String::class.java)

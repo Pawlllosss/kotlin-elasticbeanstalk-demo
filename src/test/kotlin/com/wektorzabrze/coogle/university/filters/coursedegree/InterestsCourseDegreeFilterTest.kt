@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
 
 class InterestsCourseDegreeFilterTest {
 
-    private val sut = InterestsCourseDegreeFilter(ObjectMapper())
+    private val sut = InterestCourseDegreeFilter(ObjectMapper())
 
     @Test
     fun `should properly handle interest filter`() {

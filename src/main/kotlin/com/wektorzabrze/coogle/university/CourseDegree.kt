@@ -5,4 +5,5 @@ data class CourseDegree(
     val description: String = "",
     val finalsSubjects: List<String> = emptyList(),
     val interests: Collection<String> = emptyList(),
+    val occupations: Collection<String> = emptyList()
 )
