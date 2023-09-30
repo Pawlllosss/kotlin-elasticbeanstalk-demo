@@ -1,3 +1,4 @@
 package com.wektorzabrze.coogle.university
 
-data class University (val courseDegrees: Collection<CourseDegree>)
+data class University (val courseDegrees: Collection<CourseDegree>, val type: UniversityType = UniversityType.PUBLIC, val city: String = "") {
+}
