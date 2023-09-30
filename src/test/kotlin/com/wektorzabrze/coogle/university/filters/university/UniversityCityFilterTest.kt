@@ -16,7 +16,7 @@ class UniversityCityFilterTest{
                 University(listOf(), city="Wrocław"),
                 University(listOf(), city="Kraków"),
             ),
-            parameter = Parameter("universityCity", """["Kraków"]""")
+            value = """["Kraków"]"""
         )
 
         assertEquals(2, result.size)
@@ -30,7 +30,7 @@ class UniversityCityFilterTest{
                 University(listOf(), city="Wrocław"),
                 University(listOf(), city="Kraków"),
             ),
-            parameter = Parameter("universityCity", """["Kraków", "Wrocław"]""")
+            value = """["Kraków", "Wrocław"]"""
         )
 
         assertEquals(3, result.size)
@@ -45,7 +45,7 @@ class UniversityCityFilterTest{
                 University(listOf(), city="Kraków"),
                 University(listOf(), city="Zbąszynek"),
             ),
-            parameter = Parameter("universityCity", """[]""")
+            value =  """[]"""
         )
 
         assertEquals(4, result.size)
@@ -59,7 +59,7 @@ class UniversityCityFilterTest{
                 University(listOf(), city="Wrocław"),
                 University(listOf(), city="Kraków"),
             ),
-            parameter = Parameter("universityCity", """["Zbąszynek"]""")
+            value = """["Zbąszynek"]"""
         )
 
         assertEquals(0, result.size)

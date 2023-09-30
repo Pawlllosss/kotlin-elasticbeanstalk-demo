@@ -4,6 +4,6 @@ import com.wektorzabrze.coogle.university.Parameter
 import com.wektorzabrze.coogle.university.University
 
 interface UniversitySearchFilter {
-    fun filter(universities: Collection<University>, parameter: Parameter): Collection<University>
+    fun filter(universities: Collection<University>, value: String): Collection<University>
     val discriminator: String
 }

@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component
 
 @Component
 class UniversityCityFilter(val mapper: ObjectMapper): UniversitySearchFilter {
-    override fun filter(universities: Collection<University>, parameter: Parameter): Collection<University> {
-        val cities = mapper.readValue(parameter.value, object : TypeReference<List<String>>() {})
+    override fun filter(universities: Collection<University>, value: String): Collection<University> {
+        val cities = mapper.readValue(value, object : TypeReference<List<String>>() {})
         if (cities.isEmpty()) {
             return universities
         }
