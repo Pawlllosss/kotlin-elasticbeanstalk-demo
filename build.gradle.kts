@@ -12,7 +12,7 @@ group = "com.wektorzabrze.coogle"
 version = "0.0.1-SNAPSHOT"
 
 springBoot {
-    mainClass = "com.wektorzabrze.coogle.CoogleApplication"
+    mainClass = "com.wektorzabrze.coogle.CoogleApplicationKt"
 }
 
 java {
