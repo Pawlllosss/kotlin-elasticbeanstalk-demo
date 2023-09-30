@@ -1,8 +1,8 @@
 package com.wektorzabrze.coogle.search.service
 
 import com.wektorzabrze.coogle.university.CourseDegree
-import com.wektorzabrze.coogle.university.CourseDegreeSearchFilter
 import com.wektorzabrze.coogle.university.University
+import com.wektorzabrze.coogle.university.filters.coursedegree.CourseDegreeSearchFilter
 import com.wektorzabrze.coogle.university.filters.university.UniversitySearchFilter
 import com.wektorzabrze.coogle.university.services.UniversityService
 import io.mockk.every
