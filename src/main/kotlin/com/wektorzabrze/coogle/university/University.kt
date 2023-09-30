@@ -9,9 +9,17 @@ data class University(
     val courseDegrees: Collection<CourseDegree> = emptyList(),
     val type: UniversityType = UniversityType.PUBLIC,
     val address: Address = Address("", "", ""),
-    val coordinates: Coordinates = Coordinates(0.0, 0.0),
+    val coordinates: Coordinates = Coordinates(50.06143, 19.93658),
     val amenities: Collection<Amenity> = emptyList(),
     val accessibilitiesForDisabled: Collection<String> = emptyList(),
     val clubs: Collection<Club> = emptyList(),
-    var isFavourite: Boolean = false
+    var isFavourite: Boolean = false,
+    var siteURL: String = "",
+    var scholarships: Collection<String> = emptyList(),
+
 )
+
+//ranking
+//recenzje studentów
+//koszty utrzymania (czy drogie piwo)
+//important dates? (kiedy rekrutacja itd)
