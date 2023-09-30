@@ -33,7 +33,7 @@ class SearchService(
                     searchFilterByValue.key.filter(filteredCourseDegrees, searchFilterByValue.value)
                 }
             it.copy(courseDegrees = filteredCourseDegrees)
-        }
+        }. filter { it.courseDegrees.isNotEmpty() }
     }
 
     private fun getUniversityFiltersToApply(searchParameters: Map<String, String>): Map<UniversitySearchFilter, String> =

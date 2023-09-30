@@ -1,61 +1,67 @@
 [
     {
         "name": "Akademia Górniczo-Hutnicza",
+        "photoUrl": "https://galeria.bankier.pl/p/9/1/67dd4bfafb57a9-945-560-45-168-4455-2672.jpg",
         "courseDegrees": [
             {
                 "name": "Informatyka",
                 "description": "Zdobądź podstawy informatyki i programowania.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Programowanie", "Analiza Danych"],
                 "occupancy": {
                     "noPlaces": 100,
                     "noCandidates": 80
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Programista", "Analityk Danych", "Inżynier Oprogramowania"]
             },
             {
                 "name": "Elektronika",
                 "description": "Studiuj systemy elektryczne, elektronikę i inżynierię energetyczną.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Energia Odnawialna", "Projektowanie Elektroniki"],
                 "occupancy": {
                     "noPlaces": 120,
                     "noCandidates": 90
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Inżynier Elektroniki", "Projektant Układów Elektronicznych"]
             },
             {
                 "name": "Inżynieria Mechaniczna",
                 "description": "Zdobądź podstawy mechaniki i projektowania systemów mechanicznych.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Inżynieria Samochodowa", "Robotyka"],
                 "occupancy": {
                     "noPlaces": 150,
                     "noCandidates": 120
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Inżynier Mechanik", "Projektant Maszyn"]
             },
             {
                 "name": "Górnictwo",
                 "description": "Zbadaj ekstrakcję cennych minerałów z ziemi.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Chemia"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Chemia"],
                 "interests": ["Operacje Górnicze", "Zrównoważone Zarządzanie Zasobami"],
                 "occupancy": {
                     "noPlaces": 80,
                     "noCandidates": 60
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Inżynier Górnik", "Specjalista ds. Zrównoważonego Rozwoju"]
             },
             {
                 "name": "Matematyka Stosowana",
                 "description": "Studiuj teorie matematyczne i ich praktyczne zastosowania.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Modelowanie Matematyczne", "Analiza Numeryczna"],
                 "occupancy": {
                     "noPlaces": 90,
                     "noCandidates": 70
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Analityk Matematyczny", "Specjalista ds. Analizy Numerycznej"]
             }
         ],
         "type": "PUBLIC",
@@ -99,61 +105,67 @@
     },
     {
         "name": "Uniwersytet Jagielloński",
+        "photoUrl": "https://www.uj.edu.pl/documents/10172/153457045/novumm-685.jpg/ddf817b8-d18f-47dc-bb1c-b3dc90b7238d?t=1683708003900",
         "courseDegrees": [
             {
                 "name": "Fizyka",
                 "description": "Zbadaj podstawowe zasady materii i energii.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Chemia"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Chemia"],
                 "interests": ["Fizyka Teoretyczna", "Fizyka Eksperymentalna"],
                 "occupancy": {
                     "noPlaces": 100,
                     "noCandidates": 80
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Badacz Fizyczny", "Nauczyciel Akademicki"]
             },
             {
                 "name": "Medycyna",
                 "description": "Studiuj naukę i praktykę diagnozowania, leczenia i zapobiegania chorobom.",
-                "qualifyingSubjects": ["Biologia", "Chemia", "Fizyka"],
+                "finalsSubjects": ["Biologia", "Chemia", "Fizyka"],
                 "interests": ["Badania Medyczne", "Opieka Nad Pacjentem"],
                 "occupancy": {
                     "noPlaces": 120,
                     "noCandidates": 90
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Lekarz", "Specjalista ds. Badań Medycznych"]
             },
             {
                 "name": "Inżynieria Komputerowa",
                 "description": "Łącz zasady informatyki z inżynierią elektryczną.",
-                "qualifyingSubjects": ["Matematyka", "Fizyka", "Informatyka"],
+                "finalsSubjects": ["Matematyka", "Fizyka", "Informatyka"],
                 "interests": ["Projektowanie Sprzętu", "Programowanie"],
                 "occupancy": {
                     "noPlaces": 80,
                     "noCandidates": 60
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Inżynier Komputerowy", "Programista Sprzętu"]
             },
             {
                 "name": "Biotechnologia",
                 "description": "Stosuj procesy biologiczne, organizmy lub systemy do opracowywania nowych technologii.",
-                "qualifyingSubjects": ["Biologia", "Chemia", "Matematyka"],
+                "finalsSubjects": ["Biologia", "Chemia", "Matematyka"],
                 "interests": ["Zastosowania Biomedyczne", "Biotechnologia Środowiskowa"],
                 "occupancy": {
                     "noPlaces": 90,
                     "noCandidates": 70
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Biotechnolog", "Specjalista ds. Badań Biomedycznych"]
             },
             {
                 "name": "Geografia",
                 "description": "Studiuj krajobrazy, środowiska i związki między ludźmi a ich środowiskiem.",
-                "qualifyingSubjects": ["Geografia", "Biologia", "Matematyka"],
+                "finalsSubjects": ["Geografia", "Biologia", "Matematyka"],
                 "interests": ["Studia Środowiskowe", "Planowanie Przestrzenne"],
                 "occupancy": {
                     "noPlaces": 150,
                     "noCandidates": 120
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Geograf", "Urbanista"]
             }
         ],
         "type": "PUBLIC",
@@ -211,61 +223,67 @@
     },
     {
         "name": "Uniwersytet Ekonomiczny w Krakowie",
+        "photoUrl": "https://biznes.uek.krakow.pl/wp-content/uploads/2018/10/uek_doradztwo_badania_ekspertyzy.jpg",
         "courseDegrees": [
             {
                 "name": "Ekonomia",
                 "description": "Studiuj produkcję, dystrybucję i konsumpcję dóbr i usług.",
-                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Polityka Gospodarcza", "Analiza Finansowa"],
                 "occupancy": {
                     "noPlaces": 100,
                     "noCandidates": 80
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Ekonomista", "Analityk Finansowy", "Konsultant ds. Polityki Gospodarczej"]
             },
             {
                 "name": "Zarządzanie",
                 "description": "Badaj zasady planowania, organizacji i kierowania zasobami.",
-                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Przywództwo", "Strategia Biznesowa"],
                 "occupancy": {
                     "noPlaces": 120,
                     "noCandidates": 90
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Manager", "Specjalista ds. Zarządzania Zasobami Ludzkimi"]
             },
             {
                 "name": "Międzynarodowe Stosunki Gospodarcze",
                 "description": "Studiuj działalność gospodarczą, która obejmuje wymianę międzynarodową.",
-                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Globalny Marketing", "Międzynarodowe Finanse", "Zarządzanie Międzykulturowe"],
                 "occupancy": {
                     "noPlaces": 80,
                     "noCandidates": 60
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Specjalista ds. Międzynarodowych Stosunków Gospodarczych", "Dyplomata"]
             },
             {
                 "name": "Finanse i Rachunkowość",
                 "description": "Badaj zarządzanie finansowe, zasady rachunkowości i strategie inwestycyjne.",
-                "qualifyingSubjects": ["Matematyka", "Ekonomia", "Angielski"],
+                "finalsSubjects": ["Matematyka", "Ekonomia", "Angielski"],
                 "interests": ["Planowanie Finansowe", "Finanse Korporacyjne"],
                 "occupancy": {
                     "noPlaces": 90,
                     "noCandidates": 70
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Księgowy", "Controller Finansowy"]
             },
             {
                 "name": "Informatyka w Zarządzaniu",
                 "description": "Stosuj technologię informacyjną do wsparcia zarządzania i podejmowania decyzji.",
-                "qualifyingSubjects": ["Informatyka", "Matematyka", "Angielski"],
+                "finalsSubjects": ["Informatyka", "Matematyka", "Angielski"],
                 "interests": ["Analiza Danych", "Governance IT"],
                 "occupancy": {
                     "noPlaces": 150,
                     "noCandidates": 120
                 },
-                "language": "Polski"
+                "language": "Polski",
+                "occupations": ["Specjalista ds. Informatyki Zarządczej", "Analityk Biznesowy"]
             }
         ],
         "type": "PUBLIC",
