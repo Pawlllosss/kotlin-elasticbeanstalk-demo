@@ -18,7 +18,7 @@ import java.math.BigDecimal
 class GraduationExamCourseDegreeFilterTest {
     @Test
     fun `should filter in based on exam results`(@MockK userService: UserService) {
-        every { userService.getUserFinals() } returns mapOf(
+        every { userService.getUserFinalsBySubject() } returns mapOf(
             "mat" to FinalsScore(1L, "mat", 100),
             "ang" to FinalsScore(2L, "ang", 90),
         )
@@ -42,7 +42,7 @@ class GraduationExamCourseDegreeFilterTest {
     }
     @Test
     fun `should filter out based on exam results`(@MockK userService: UserService) {
-        every { userService.getUserFinals() } returns mapOf(
+        every { userService.getUserFinalsBySubject() } returns mapOf(
             "mat" to FinalsScore(1L, "mat", 100),
             "ang" to FinalsScore(2L, "ang", 40),
         )

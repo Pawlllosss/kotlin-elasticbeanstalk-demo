@@ -15,5 +15,6 @@ class UserService {
         return finalsScores
     }
 
-    fun getUserFinals(): Map<String, FinalsScore> = this.finalsScores.associateBy { it.subject }
+    fun getUserFinals(): Collection<FinalsScore> = this.finalsScores
+    fun getUserFinalsBySubject(): Map<String, FinalsScore> = getUserFinals().associateBy { it.subject }
 }
