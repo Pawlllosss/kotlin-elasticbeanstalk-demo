@@ -1,5 +1,6 @@
 package com.wektorzabrze.coogle.university
 
-class CourseDegree {
-
-}
+data class CourseDegree(
+    val name: String,
+    val description: String = ""
+)
