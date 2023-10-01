@@ -3264,6 +3264,241 @@
             "Stypendium za wyniki w nauce",
             "Stypendium naukowe"
         ]
+    },
+    {
+        "name": "Uniwersytet Rzeszowski",
+        "rating": "35.7",
+        "photoUrl": "https://bi.im-g.pl/im/2c/c3/1a/z28063532AMP,Uniwersytet-Rzeszowski.jpg",
+        "courseDegrees": [
+            {
+                "name": "Psychologia Społeczna",
+                "category": "SOCIAL",
+                "description": "Studiuj psychologię społeczną na Uniwersytecie Rzeszowskim.",
+                "finalsSubjects": [
+                    "Psychologia Społeczna",
+                    "Statystyka w Psychologii",
+                    "Psychoterapia"
+                ],
+                "interests": [
+                    "Psychologia Organizacyjna",
+                    "Badania Społeczne"
+                ],
+                "occupancy": {
+                    "noPlaces": 90,
+                    "noCandidates": 75
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psycholog Społeczny",
+                    "Konsultant ds. Zasobów Ludzkich",
+                    "Badacz Społeczny"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "psychologia": 0.7,
+                        "statystyka": 0.2,
+                        "angielski": 0.1
+                    },
+                    "minThreshold": 75
+                },
+                "level": "2",
+                "tuition": 1000,
+                "earningsMedian": 6800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Podstawy statystyki"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia społeczna",
+                                "Psychologia pracy"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychoterapia",
+                                "Badania społeczne"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Materiałowa",
+                "category": "ENGINEERING",
+                "description": "Zdobądź wiedzę z zakresu inżynierii materiałowej na Uniwersytecie Rzeszowskim.",
+                "finalsSubjects": [
+                    "Chemia Ogólna",
+                    "Materiałoznawstwo",
+                    "Inżynieria Powierzchni"
+                ],
+                "interests": [
+                    "Technologie Materiałowe",
+                    "Badania Strukturalne"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Materiałowy",
+                    "Specjalista ds. Badań Materiałowych",
+                    "Technolog"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "chemia": 0.6,
+                        "matematyka": 0.3,
+                        "fizyka": 0.1
+                    },
+                    "minThreshold": 70
+                },
+                "level": "1inz",
+                "tuition": 1500,
+                "earningsMedian": 7800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Chemia ogólna",
+                                "Matematyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Materiałoznawstwo",
+                                "Podstawy fizyki"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Inżynieria powierzchni",
+                                "Technologie materiałowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Zarządzanie Projektem",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studiuj zarządzanie projektami na Uniwersytecie Rzeszowskim.",
+                "finalsSubjects": [
+                    "Zarządzanie Projektami",
+                    "Rachunkowość Zarządcza",
+                    "Negocjacje Biznesowe"
+                ],
+                "interests": [
+                    "Scrum",
+                    "Zarządzanie Ryzykiem Projektowym"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Kierownik Projektu",
+                    "Specjalista ds. Zarządzania Projektami",
+                    "Analityk Biznesowy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "zarządzanie_projektami": 0.7,
+                        "rachunkowość": 0.2,
+                        "angielski": 0.1
+                    },
+                    "minThreshold": 75
+                },
+                "level": "2",
+                "tuition": 1200,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Zarządzanie projektami",
+                                "Rachunkowość zarządcza"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Negocjacje biznesowe",
+                                "Zarządzanie ryzykiem projektowym"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Techniki prezentacji",
+                                "Zarządzanie czasem"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Rzeszów",
+            "street": "Akademicka",
+            "buildingNumber": "27"
+        },
+        "coordinates": {
+            "latitude": 50.035167,
+            "longitude": 21.968667
+        },
+        "amenities": [
+            {
+                "name": "Klub Filmowy",
+                "type": "RECREATION",
+                "distance": 250
+            },
+            {
+                "name": "Siłownia Uniwersytecka",
+                "type": "RECREATION",
+                "distance": 180
+            },
+            {
+                "name": "Sala Konferencyjna",
+                "type": "EDUCATIONAL",
+                "distance": 300
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Psychologów",
+                "description": "Spotkania i badania dla studentów psychologii."
+            },
+            {
+                "name": "Klub Inżynierów Materiałowych",
+                "description": "Integracja i projekty z zakresu inżynierii materiałowej."
+            }
+        ],
+        "siteURL": "https://www.ur.edu.pl/pl/",
+        "scholarships": [
+            "Stypendium zaangażowania społecznego",
+            "Stypendium dla uzdolnionych"
+        ]
     }
-
 ]
