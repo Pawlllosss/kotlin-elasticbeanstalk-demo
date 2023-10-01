@@ -20,6 +20,8 @@ data class CourseDegree(
         ),
         minThreshold = BigDecimal.valueOf(90)
     ),
-    val category: CourseDegreeCategory = CourseDegreeCategory.INFORMATION
-
+    val category: CourseDegreeCategory = CourseDegreeCategory.INFORMATION,
+    val tuition: Long = 0,
+    val earningsMedian: Long = 0,
+    val syllabus: Syllabus = Syllabus(emptyList())
 )
