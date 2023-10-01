@@ -3863,5 +3863,241 @@
             "Stypendium za wyniki w nauce",
             "Stypendium naukowe"
         ]
+    },
+    {
+        "name": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy",
+        "rating": "26.2",
+        "photoUrl": "https://d-art.ppstatic.pl/kadry/k/r/1/d8/ad/6130903918b60_o_full.jpg",
+        "courseDegrees": [
+            {
+                "name": "Informatyka Stosowana",
+                "category": "INFORMATION",
+                "description": "Zdobądź praktyczne umiejętności informatyczne na Uniwersytecie Kazimierza Wielkiego.",
+                "finalsSubjects": [
+                    "Programowanie Obiektowe",
+                    "Bazy Danych",
+                    "Analiza Systemów Informatycznych"
+                ],
+                "interests": [
+                    "Tworzenie Aplikacji Mobilnych",
+                    "Sztuczna Inteligencja"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Administrator Baz Danych",
+                    "Specjalista ds. Bezpieczeństwa IT"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "programowanie_obiektowe": 0.7,
+                        "matematyka": 0.2,
+                        "angielski": 0.1
+                    },
+                    "minThreshold": 85
+                },
+                "level": "2",
+                "tuition": 1200,
+                "earningsMedian": 7800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do informatyki",
+                                "Podstawy programowania"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Struktury danych",
+                                "Bazy danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Programowanie obiektowe",
+                                "Analiza systemów informatycznych"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Biotechnologia",
+                "category": "SCIENCE",
+                "description": "Studiuj biotechnologię na Uniwersytecie Kazimierza Wielkiego.",
+                "finalsSubjects": [
+                    "Biochemia",
+                    "Genetyka",
+                    "Inżynieria Genetyczna"
+                ],
+                "interests": [
+                    "Biologia Molekularna",
+                    "Produkcja Leków"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Biotechnolog",
+                    "Analityk Genetyczny",
+                    "Specjalista ds. Badań Klinicznych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "biochemia": 0.6,
+                        "chemia": 0.3,
+                        "biologia": 0.1
+                    },
+                    "minThreshold": 78
+                },
+                "level": "1inz",
+                "tuition": 1500,
+                "earningsMedian": 7600,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Biochemia",
+                                "Chemia organiczna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Genetyka",
+                                "Biologia molekularna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Inżynieria genetyczna",
+                                "Metody badań biotechnologicznych"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Zarządzanie Kulturą",
+                "category": "ARTS",
+                "description": "Zajmuj się zarządzaniem kulturą na Uniwersytecie Kazimierza Wielkiego.",
+                "finalsSubjects": [
+                    "Teoria Kultury",
+                    "Event Management",
+                    "Public Relations w Kulturze"
+                ],
+                "interests": [
+                    "Organizacja Wydarzeń Kulturalnych",
+                    "Marketing Kultury"
+                ],
+                "occupancy": {
+                    "noPlaces": 70,
+                    "noCandidates": 50
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Menadżer Kultury",
+                    "Specjalista ds. Promocji Kultury",
+                    "Kurator Wystaw"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "teoria_kultury": 0.7,
+                        "angielski": 0.2,
+                        "historia_sztuki": 0.1
+                    },
+                    "minThreshold": 80
+                },
+                "level": "2",
+                "tuition": 1300,
+                "earningsMedian": 7200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Teoria kultury",
+                                "Historia sztuki"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Event management",
+                                "Public relations w kulturze"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Marketing kultury",
+                                "Organizacja wydarzeń kulturalnych"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Bydgoszcz",
+            "street": "Nowotoruńska",
+            "buildingNumber": "9"
+        },
+        "coordinates": {
+            "latitude": 53.116667,
+            "longitude": 18.0
+        },
+        "amenities": [
+            {
+                "name": "Galeria Sztuki",
+                "type": "ARTS",
+                "distance": 200
+            },
+            {
+                "name": "Klub Literacki",
+                "type": "ENTERTAINMENT",
+                "distance": 150
+            },
+            {
+                "name": "Sala Koncertowa",
+                "type": "ARTS",
+                "distance": 300
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Informatyków",
+                "description": "Integracja i projekty informatyczne dla studentów."
+            },
+            {
+                "name": "Teatr Studencki",
+                "description": "Grupa teatralna działająca przy uczelni."
+            }
+        ],
+        "siteURL": "https://www.ukw.edu.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium sportowe"
+        ]
     }
 ]
