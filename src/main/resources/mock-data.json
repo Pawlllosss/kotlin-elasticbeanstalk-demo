@@ -2211,7 +2211,238 @@
             "Stypendium za wyniki w nauce",
             "Stypendium inżynierskie"
         ]
+    },
+    {
+        "name": "Politechnika Poznańska",
+        "rating": 71.3,
+        "photoUrl": "https://www.pomaturze.pl/pliki/galeria/PP-1_0.jpg",
+        "courseDegrees": [
+            {
+                "name": "Informatyka",
+                "category": "INFORMATION",
+                "description": "Zdobądź wiedzę z zakresu informatyki i programowania.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Fizyka",
+                    "Informatyka"
+                ],
+                "interests": [
+                    "Programowanie",
+                    "Sztuczna Inteligencja"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk Systemowy",
+                    "Inżynier Oprogramowania"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.7,
+                        "fizyka": 0.2,
+                        "informatyka": 0.1
+                    },
+                    "minThreshold": 85
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 7800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do programowania",
+                                "Matematyka dyskretna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Algorytmy i struktury danych",
+                                "Programowanie obiektowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Bazy danych",
+                                "Analiza i projektowanie systemów"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Elektryczna",
+                "category": "ENGINEERING",
+                "description": "Studiuj systemy elektryczne, elektronikę i telekomunikację.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Fizyka",
+                    "Elektronika"
+                ],
+                "interests": [
+                    "Energetyka",
+                    "Telekomunikacja"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Elektryk",
+                    "Projektant Systemów Telekomunikacyjnych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.6,
+                        "fizyka": 0.4
+                    },
+                    "minThreshold": 80
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy elektrotechniki",
+                                "Matematyka dla inżynierów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Fizyka techniczna",
+                                "Układy elektroniczne"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Komunikacja cyfrowa",
+                                "Systemy mikroprocesorowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Mechaniczna",
+                "category": "ENGINEERING",
+                "description": "Zdobądź wiedzę z zakresu mechaniki i projektowania systemów mechanicznych.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Fizyka",
+                    "Informatyka"
+                ],
+                "interests": [
+                    "Inżynieria Samochodowa",
+                    "Konstrukcje Maszyn"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 150
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Mechanik",
+                    "Projektant Maszyn"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.5,
+                        "fizyka": 0.4,
+                        "informatyka": 0.1
+                    },
+                    "minThreshold": 75
+                },
+                "level": "3",
+                "tuition": 0,
+                "earningsMedian": 8000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy mechaniki",
+                                "Matematyka dla inżynierów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Technologie materiałowe",
+                                "Rysunek techniczny"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Modelowanie komputerowe",
+                                "Inżynieria oprogramowania"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Poznań",
+            "street": "plac Marii Skłodowskiej-Curie",
+            "buildingNumber": "5"
+        },
+        "coordinates": {
+            "latitude": 52.3941095,
+            "longitude": 16.91838
+        },
+        "amenities": [
+            {
+                "name": "Stołówka Przysmak",
+                "type": "RESTAURANT",
+                "distance": 150
+            },
+            {
+                "name": "Klub Studencki",
+                "type": "RECREATION",
+                "distance": 200
+            },
+            {
+                "name": "Sklep Techniczny",
+                "type": "SHOP",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Dla pasjonatów programowania i informatyki."
+            },
+            {
+                "name": "Klub Mechaników",
+                "description": "Spotkania dla miłośników inżynierii mechanicznej."
+            }
+        ],
+        "siteURL": "https://www.put.poznan.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium sportowe"
+        ]
     }
-
-
 ]
