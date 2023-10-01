@@ -1863,5 +1863,179 @@
             "Stypendium za wyniki w nauce",
             "Stypendium sportowe"
         ]
+    },
+    {
+        "name": "Uniwersytet Warszawski",
+        "rating": 99.6,
+        "photoUrl": "https://ipla.pluscdn.pl/dituel/cp/nj/nj6cd5nrokpvayzidvyo3hwzr6g4hppa.jpg",
+        "courseDegrees": [
+            {
+                "name": "Informatyka",
+                "category": "ENGINEERING",
+                "description": "Bachelor's degree in Computer Science.",
+                "finalsSubjects": [
+                    "Computer Programming",
+                    "Algorithms",
+                    "Database Management"
+                ],
+                "interests": [
+                    "Artificial Intelligence",
+                    "Web Development"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polish",
+                "occupations": [
+                    "Software Engineer",
+                    "Data Analyst"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Computer Programming": 0.4,
+                        "Algorithms": 0.4,
+                        "Database Management": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "Bachelor",
+                "tuition": 4000,
+                "earningsMedian": 6000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Introduction to Programming",
+                                "Discrete Mathematics"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Data Structures",
+                                "Computer Networks"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Machine Learning",
+                                "Web Development"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Psychologia",
+                "category": "HUMANISTIC",
+                "description": "Bachelor's degree in Psychology.",
+                "finalsSubjects": [
+                    "Clinical Psychology",
+                    "Developmental Psychology",
+                    "Counseling Techniques"
+                ],
+                "interests": [
+                    "Child Psychology",
+                    "Clinical Practice"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 90
+                },
+                "language": "Polish",
+                "occupations": [
+                    "Clinical Psychologist",
+                    "Counselor"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Clinical Psychology": 0.4,
+                        "Developmental Psychology": 0.4,
+                        "Counseling Techniques": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Bachelor",
+                "tuition": 3500,
+                "earningsMedian": 5500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Introduction to Psychology",
+                                "Research Methods"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Abnormal Psychology",
+                                "Child Development"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Counseling Psychology",
+                                "Clinical Practice"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Warsaw",
+            "street": "Krakowskie Przedmieście",
+            "buildingNumber": "26/28"
+        },
+        "coordinates": {
+            "latitude": 52.2394,
+            "longitude": 21.0151
+        },
+        "amenities": [
+            {
+                "name": "Student Cafeteria",
+                "type": "RESTAURANT",
+                "distance": 200
+            },
+            {
+                "name": "Sports Facilities",
+                "type": "RECREATION",
+                "distance": 300
+            },
+            {
+                "name": "Library",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Ramp",
+            "Elevator",
+            "Wheelchair Access",
+            "Audio Description",
+            "Braille Buttons"
+        ],
+        "clubs": [
+            {
+                "name": "Psychology Club",
+                "description": "A student organization for psychology enthusiasts."
+            },
+            {
+                "name": "Computer Science Club",
+                "description": "A club for students passionate about computer science."
+            }
+        ],
+        "siteURL": "https://www.uw.edu.pl/",
+        "scholarships": [
+            "Academic Excellence Scholarship",
+            "Sports Scholarship"
+        ]
     }
 ]
