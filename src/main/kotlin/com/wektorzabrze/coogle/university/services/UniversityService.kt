@@ -2653,7 +2653,182 @@ private val mockData: String = """[
             "Stypendium za wyniki w nauce",
             "Stypendium naukowe"
         ]
+    },
+    {
+        "name": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+        "rating": 83.6,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Collegium_Minus_w_Poznaniu.jpg",
+        "courseDegrees": [
+            {
+                "name": "Psychologia",
+                "category": "HUMANISTIC",
+                "description": "Studia licencjackie z psychologii.",
+                "finalsSubjects": [
+                    "Psychologia kliniczna",
+                    "Psychologia rozwojowa",
+                    "Metody badawcze w psychologii"
+                ],
+                "interests": [
+                    "Psychoterapia",
+                    "Psychologia dziecka i młodzieży"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psycholog kliniczny",
+                    "Psychoterapeuta"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Psychologia kliniczna": 0.4,
+                        "Psychologia rozwojowa": 0.4,
+                        "Metody badawcze": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Licencjackie",
+                "tuition": 3600,
+                "earningsMedian": 5800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Statystyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia osobowości",
+                                "Psychopatologia"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychoterapia",
+                                "Psychologia dziecka"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Informatyka",
+                "category": "SCIENCE",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Bazy danych",
+                    "Programowanie obiektowe",
+                    "Sztuczna inteligencja"
+                ],
+                "interests": [
+                    "Analiza danych",
+                    "Bezpieczeństwo informatyczne"
+                ],
+                "occupancy": {
+                    "noPlaces": 200,
+                    "noCandidates": 160
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk danych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Bazy danych": 0.4,
+                        "Programowanie obiektowe": 0.4,
+                        "Sztuczna inteligencja": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Inżynierskie",
+                "tuition": 4500,
+                "earningsMedian": 6800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy programowania",
+                                "Bazy danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Programowanie obiektowe",
+                                "Analiza danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Bezpieczeństwo informatyczne"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Poznań",
+            "street": "ul. Wieniawskiego",
+            "buildingNumber": "1"
+        },
+        "coordinates": {
+            "latitude": 52.4105,
+            "longitude": 16.8935
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 200
+            },
+            {
+                "name": "Laboratoria informatyczne",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Dostęp dla wózków",
+            "Opis dźwiękowy",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Psychologii",
+                "description": "Organizacja studencka dla miłośników psychologii."
+            },
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Koło dla studentów pasjonujących się informatyką."
+            }
+        ],
+        "siteURL": "https://www.amu.edu.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium naukowe"
+        ]
     }
+
 
 
 ]""".trimIndent()
