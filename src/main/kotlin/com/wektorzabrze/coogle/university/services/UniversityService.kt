@@ -4103,7 +4103,7 @@ private val mockData: String = """[
             },
             {
                 "name": "Klub Literacki",
-                "type": "EDUCATIONAL",
+                "type": "RECREATION",
                 "distance": 150
             },
             {
@@ -4134,5 +4134,487 @@ private val mockData: String = """[
             "Stypendium za wyniki w nauce",
             "Stypendium sportowe"
         ]
+    },
+    {
+        "name": "Uniwersytet Opolski",
+        "rating": 64.0,
+        "photoUrl": "https://www.uni.opole.pl/uploads/news/770/2019-06-27-093042.jpg",
+        "courseDegrees": [
+            {
+                "name": "Psychologia",
+                "category": "SOCIAL",
+                "description": "Studia licencjackie z psychologii.",
+                "finalsSubjects": [
+                    "Psychologia kliniczna",
+                    "Psychologia rozwojowa",
+                    "Metody badawcze w psychologii"
+                ],
+                "interests": [
+                    "Psychoterapia",
+                    "Psychologia dziecka i młodzieży"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psycholog kliniczny",
+                    "Psychoterapeuta"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Psychologia kliniczna": 0.4,
+                        "Psychologia rozwojowa": 0.4,
+                        "Metody badawcze": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Licencjackie",
+                "tuition": 3600,
+                "earningsMedian": 5800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Statystyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia osobowości",
+                                "Psychopatologia"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychoterapia",
+                                "Psychologia dziecka"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Informatyka",
+                "category": "ENGINEERING",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Bazy danych",
+                    "Programowanie obiektowe",
+                    "Sztuczna inteligencja"
+                ],
+                "interests": [
+                    "Analiza danych",
+                    "Bezpieczeństwo informatyczne"
+                ],
+                "occupancy": {
+                    "noPlaces": 200,
+                    "noCandidates": 160
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk danych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Bazy danych": 0.4,
+                        "Programowanie obiektowe": 0.4,
+                        "Sztuczna inteligencja": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Inżynierskie",
+                "tuition": 4500,
+                "earningsMedian": 6800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy programowania",
+                                "Bazy danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Programowanie obiektowe",
+                                "Analiza danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Bezpieczeństwo informatyczne"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Biologia",
+                "category": "NATURAL",
+                "description": "Studia licencjackie z biologii.",
+                "finalsSubjects": [
+                    "Biologia molekularna",
+                    "Ekologia",
+                    "Zoologia"
+                ],
+                "interests": [
+                    "Ochrona środowiska",
+                    "Genetyka"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Biolog",
+                    "Ekolog"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Biologia molekularna": 0.4,
+                        "Ekologia": 0.4,
+                        "Zoologia": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Licencjackie",
+                "tuition": 3500,
+                "earningsMedian": 6200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy biologii",
+                                "Biologia komórki"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Biologia molekularna",
+                                "Ekologia"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Zoologia",
+                                "Ochrona środowiska"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Prawo",
+                "category": "SOCIAL",
+                "description": "Studia magisterskie z prawa.",
+                "finalsSubjects": [
+                    "Prawo cywilne",
+                    "Prawo konstytucyjne",
+                    "Prawo międzynarodowe"
+                ],
+                "interests": [
+                    "Prawo gospodarcze",
+                    "Prawo międzynarodowe"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 150
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Adwokat",
+                    "Sędzia"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Prawo cywilne": 0.4,
+                        "Prawo konstytucyjne": 0.4,
+                        "Prawo międzynarodowe": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Magisterskie",
+                "tuition": 3800,
+                "earningsMedian": 7200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do prawa",
+                                "Prawo cywilne"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Prawo konstytucyjne",
+                                "Prawo administracyjne"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Prawo gospodarcze",
+                                "Prawo międzynarodowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Ekonomia",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studia magisterskie z ekonomii.",
+                "finalsSubjects": [
+                    "Mikroekonomia",
+                    "Makroekonomia",
+                    "Finanse publiczne"
+                ],
+                "interests": [
+                    "Polityka gospodarcza",
+                    "Rachunkowość"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 150
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Ekonomista",
+                    "Analityk finansowy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Mikroekonomia": 0.4,
+                        "Makroekonomia": 0.4,
+                        "Finanse publiczne": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Magisterskie",
+                "tuition": 4000,
+                "earningsMedian": 7200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do ekonomii",
+                                "Mikroekonomia"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Makroekonomia",
+                                "Finanse publiczne"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Polityka gospodarcza",
+                                "Rachunkowość"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Filologia Angielska",
+                "category": "HUMANISTIC",
+                "description": "Studia licencjackie z filologii angielskiej.",
+                "finalsSubjects": [
+                    "Literatura angielska",
+                    "Lingwistyka",
+                    "Kultura brytyjska"
+                ],
+                "interests": [
+                    "Tłumaczenia",
+                    "Nauczanie języka angielskiego"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Tłumacz",
+                    "Nauczyciel języka angielskiego"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Literatura angielska": 0.4,
+                        "Lingwistyka": 0.4,
+                        "Kultura brytyjska": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Licencjackie",
+                "tuition": 3500,
+                "earningsMedian": 6200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do filologii angielskiej",
+                                "Gramatyka angielska"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Literatura angielska",
+                                "Lingwistyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Kultura brytyjska",
+                                "Tłumaczenia"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Historia",
+                "category": "HUMANISTIC",
+                "description": "Studia magisterskie z historii.",
+                "finalsSubjects": [
+                    "Historia Polski",
+                    "Historia Europy",
+                    "Historiografia"
+                ],
+                "interests": [
+                    "Archeologia",
+                    "Muzeologia"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Historyk",
+                    "Archeolog"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Historia Polski": 0.4,
+                        "Historia Europy": 0.4,
+                        "Historiografia": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Magisterskie",
+                "tuition": 3800,
+                "earningsMedian": 6700,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do historii",
+                                "Historia Polski"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Historia Europy",
+                                "Historia sztuki"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Historiografia",
+                                "Archeologia"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Opole",
+            "street": "ul. Uniwersytecka",
+            "buildingNumber": "7"
+        },
+        "coordinates": {
+            "latitude": 50.6667,
+            "longitude": 17.9301
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 200
+            },
+            {
+                "name": "Laboratoria naukowe",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Dostęp dla wózków",
+            "Opis dźżewiękowy",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Psychologii",
+                "description": "Organizacja studencka dla miłośników psychologii."
+            },
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Koło dla studentów pasjonujących się informatyką."
+            },
+            {
+                "name": "Koło Naukowe Biologii",
+                "description": "Organizacja studencka dla miłośników biologii."
+            },
+            {
+                "name": "Koło Naukowe Prawa",
+                "description": "Koło dla przyszłych prawników."
+            },
+            {
+                "name": "Koło Naukowe Historii",
+                "description": "Organizacja studencka dla miłośników historii."
+            }
+        ],
+        "siteURL": "https://www.uni.opole.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium socjalne"
+        ]
     }
+
 ]""".trimIndent()
