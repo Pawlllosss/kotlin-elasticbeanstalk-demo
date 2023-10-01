@@ -2792,8 +2792,240 @@
             "Stypendium za wyniki w nauce",
             "Stypendium naukowe"
         ]
+    },
+    {
+        "name": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
+        "rating": 56.7,
+        "photoUrl": "https://bi.im-g.pl/im/f0/4d/15/z22337776AMP,Rektorat-UWM-w-Olsztynie.jpg",
+        "courseDegrees": [
+            {
+                "name": "Biologia",
+                "category": "NATURAL",
+                "description": "Studiuj biologię na Uniwersytecie Warmińsko-Mazurskim.",
+                "finalsSubjects": [
+                    "Biologia Molekularna",
+                    "Ekologia",
+                    "Genetyka"
+                ],
+                "interests": [
+                    "Badania nad Środowiskiem",
+                    "Biotechnologia"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Biolog",
+                    "Genetyk",
+                    "Ekolog"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "biologia": 0.8,
+                        "chemia": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 7000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wstęp do biologii",
+                                "Chemia organiczna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Biologia komórki",
+                                "Genetyka ogólna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Biotechnologia",
+                                "Ekologia"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Informatyka Stosowana",
+                "category": "INFORMATION",
+                "description": "Zdobądź wiedzę z zakresu informatyki na Uniwersytecie Warmińsko-Mazurskim.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Informatyka",
+                    "Algorytmy"
+                ],
+                "interests": [
+                    "Programowanie Aplikacji",
+                    "Analiza Danych"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk Systemowy",
+                    "Inżynier Oprogramowania"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.7,
+                        "fizyka": 0.2,
+                        "informatyka": 0.1
+                    },
+                    "minThreshold": 80
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do programowania",
+                                "Matematyka dyskretna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Algorytmy i struktury danych",
+                                "Programowanie obiektowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Bazy danych",
+                                "Analiza i projektowanie systemów"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Zarządzanie Finansowe",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studiuj zarządzanie finansami na Uniwersytecie Warmińsko-Mazurskim.",
+                "finalsSubjects": [
+                    "Rachunkowość",
+                    "Finanse Przedsiębiorstw",
+                    "Analiza Finansowa"
+                ],
+                "interests": [
+                    "Zarządzanie Ryzykiem Finansowym",
+                    "Konsulting Finansowy"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Analityk Finansowy",
+                    "Konsultant ds. Finansów",
+                    "Rachunkowy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.6,
+                        "ekonomia": 0.3,
+                        "angielski": 0.1
+                    },
+                    "minThreshold": 70
+                },
+                "level": "1inz",
+                "tuition": 0,
+                "earningsMedian": 7200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Rachunkowość finansowa",
+                                "Matematyka finansowa"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Finanse przedsiębiorstw",
+                                "Analiza finansowa"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Zarządzanie ryzykiem finansowym",
+                                "Konsolidacja finansowa"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Olsztyn",
+            "street": "Żołnierska",
+            "buildingNumber": "45"
+        },
+        "coordinates": {
+            "latitude": 53.778422,
+            "longitude": 20.480220
+        },
+        "amenities": [
+            {
+                "name": "Nocny Klub Naukowy",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            },
+            {
+                "name": "Strefa Rekreacji",
+                "type": "RECREATION",
+                "distance": 200
+            },
+            {
+                "name": "Kawiarnia Studencka",
+                "type": "RESTAURANT",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Biologów",
+                "description": "Spotkania i badania dla miłośników biologii."
+            },
+            {
+                "name": "Klub Informatyków",
+                "description": "Integracja i projekty z zakresu informatyki."
+            }
+        ],
+        "siteURL": "https://uwm.edu.pl/",
+        "scholarships": [
+            "Stypendium zaangażowania społecznego",
+            "Stypendium dla najlepszych studentów"
+        ]
     }
-
-
-
 ]
