@@ -57,7 +57,8 @@ private val mockData: String = """[
                         "angielski": 0.2
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Elektronika",
@@ -77,7 +78,8 @@ private val mockData: String = """[
                         "angielski": 0.2
                     },
                     "minThreshold": 80
-                }
+                },
+                "level": "1inz"
             },
             {
                 "name": "Inżynieria Mechaniczna",
@@ -97,7 +99,8 @@ private val mockData: String = """[
                         "angielski": 0.2
                     },
                     "minThreshold": 60
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Górnictwo",
@@ -117,7 +120,8 @@ private val mockData: String = """[
                         "angielski": 0.2
                     },
                     "minThreshold": 30
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Matematyka Stosowana",
@@ -136,7 +140,8 @@ private val mockData: String = """[
                         "matematyka": 1.0
                     },
                     "minThreshold": 50
-                }
+                },
+                "level": "1inz"
             }
         ],
         "type": "PUBLIC",
@@ -201,7 +206,8 @@ private val mockData: String = """[
                         "fizyka": 1.0
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "2jednolite"
             },
             {
                 "name": "Medycyna",
@@ -221,7 +227,8 @@ private val mockData: String = """[
                         "chemia": 0.5
                     },
                     "minThreshold": 95
-                }
+                },
+                "level": "2jednolite"
             },
             {
                 "name": "Inżynieria Komputerowa",
@@ -240,7 +247,8 @@ private val mockData: String = """[
                         "matematyka": 1.0
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Biotechnologia",
@@ -259,7 +267,8 @@ private val mockData: String = """[
                         "biologia": 1.0
                     },
                     "minThreshold": 45
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Geografia",
@@ -278,7 +287,8 @@ private val mockData: String = """[
                         "geografia": 1.0
                     },
                     "minThreshold": 30
-                }
+                },
+                "level": "2"
             }
         ],
         "type": "PUBLIC",
@@ -357,7 +367,8 @@ private val mockData: String = """[
                         "matematyka": 1.0
                     },
                     "minThreshold": 40
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Zarządzanie",
@@ -376,7 +387,8 @@ private val mockData: String = """[
                         "matematyka": 1.0
                     },
                     "minThreshold": 10
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Międzynarodowe Stosunki Gospodarcze",
@@ -395,7 +407,8 @@ private val mockData: String = """[
                         "polski": 1.0
                     },
                     "minThreshold": 30
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Finanse i Rachunkowość",
@@ -414,7 +427,8 @@ private val mockData: String = """[
                         "matematyka": 1.0
                     },
                     "minThreshold": 60
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Informatyka w Zarządzaniu",
@@ -433,7 +447,8 @@ private val mockData: String = """[
                         "matematyka": 1.0
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "1lic"
             }
         ],
         "type": "PUBLIC",

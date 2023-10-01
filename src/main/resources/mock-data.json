@@ -21,7 +21,8 @@
                         "angielski": 0.2
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Elektronika",
@@ -41,7 +42,8 @@
                         "angielski": 0.2
                     },
                     "minThreshold": 80
-                }
+                },
+                "level": "1inz"
             },
             {
                 "name": "Inżynieria Mechaniczna",
@@ -61,7 +63,8 @@
                         "angielski": 0.2
                     },
                     "minThreshold": 60
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Górnictwo",
@@ -81,7 +84,8 @@
                         "angielski": 0.2
                     },
                     "minThreshold": 30
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Matematyka Stosowana",
@@ -100,7 +104,8 @@
                         "matematyka": 1.0
                     },
                     "minThreshold": 50
-                }
+                },
+                "level": "1inz"
             }
         ],
         "type": "PUBLIC",
@@ -165,7 +170,8 @@
                         "fizyka": 1.0
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "2jednolite"
             },
             {
                 "name": "Medycyna",
@@ -185,7 +191,8 @@
                         "chemia": 0.5
                     },
                     "minThreshold": 95
-                }
+                },
+                "level": "2jednolite"
             },
             {
                 "name": "Inżynieria Komputerowa",
@@ -204,7 +211,8 @@
                         "matematyka": 1.0
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Biotechnologia",
@@ -223,7 +231,8 @@
                         "biologia": 1.0
                     },
                     "minThreshold": 45
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Geografia",
@@ -242,7 +251,8 @@
                         "geografia": 1.0
                     },
                     "minThreshold": 30
-                }
+                },
+                "level": "2"
             }
         ],
         "type": "PUBLIC",
@@ -321,7 +331,8 @@
                         "matematyka": 1.0
                     },
                     "minThreshold": 40
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Zarządzanie",
@@ -340,7 +351,8 @@
                         "matematyka": 1.0
                     },
                     "minThreshold": 10
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Międzynarodowe Stosunki Gospodarcze",
@@ -359,7 +371,8 @@
                         "polski": 1.0
                     },
                     "minThreshold": 30
-                }
+                },
+                "level": "2"
             },
             {
                 "name": "Finanse i Rachunkowość",
@@ -378,7 +391,8 @@
                         "matematyka": 1.0
                     },
                     "minThreshold": 60
-                }
+                },
+                "level": "1lic"
             },
             {
                 "name": "Informatyka w Zarządzaniu",
@@ -397,7 +411,8 @@
                         "matematyka": 1.0
                     },
                     "minThreshold": 90
-                }
+                },
+                "level": "1lic"
             }
         ],
         "type": "PUBLIC",
