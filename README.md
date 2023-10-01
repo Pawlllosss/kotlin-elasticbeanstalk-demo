@@ -1,1 +1,11 @@
-SPRING_PROFILES_ACTIVE set to AWS for using the instance profile, otherwise it uses access keys stored in the environment variables
+## Deployed application
+
+http://coogle-frontend-new-dev2.us-east-1.elasticbeanstalk.com/
+
+## Swagger
+
+http://demo-ebs-env.eba-qcvhx8uz.us-east-1.elasticbeanstalk.com/swagger-ui/index.html
+
+## Frontend repository
+
+https://github.com/Keikeu/hackyeah
