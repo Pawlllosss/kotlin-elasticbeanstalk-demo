@@ -4615,6 +4615,241 @@ private val mockData: String = """[
             "Stypendium za wyniki w nauce",
             "Stypendium socjalne"
         ]
+    },
+    {
+        "name": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+        "rating": 55.0,
+        "photoUrl": "https://pliki.portalsamorzadowy.pl/i/20/26/92/202692_r0_940.jpg",
+        "courseDegrees": [
+            {
+                "name": "Psychologia",
+                "category": "SOCIAL",
+                "description": "Studiuj psychologię na Uniwersytecie Marii Curie-Skłodowskiej.",
+                "finalsSubjects": [
+                    "Psychologia Ogólna",
+                    "Psychologia Kliniczna",
+                    "Neuropsychologia"
+                ],
+                "interests": [
+                    "Psychoterapia",
+                    "Badania Nad mózgiem"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psycholog Kliniczny",
+                    "Terapeuta Psychodynamiczny",
+                    "Badacz Neuropsychologii"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "psychologia_ogolna": 0.6,
+                        "biologia": 0.2,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 88
+                },
+                "level": "2",
+                "tuition": 1800,
+                "earningsMedian": 8200,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Psychologia ogólna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Neuropsychologia",
+                                "Statystyka w psychologii"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychoterapia",
+                                "Psychologia kliniczna"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Chemia Materiałów",
+                "category": "SCIENCE",
+                "description": "Zajmuj się chemią materiałów na Uniwersytecie Marii Curie-Skłodowskiej.",
+                "finalsSubjects": [
+                    "Chemia Analityczna",
+                    "Chemia Fizyczna",
+                    "Technologie Chemiczne"
+                ],
+                "interests": [
+                    "Synteza Materiałów",
+                    "Badania Struktury Chemicznej"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Chemiczka Materiałowa",
+                    "Analityk Chemiczny",
+                    "Inżynier Procesu Chemicznego"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "chemia_analityczna": 0.5,
+                        "fizyka": 0.3,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "1inz",
+                "tuition": 1600,
+                "earningsMedian": 7800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Chemia analityczna",
+                                "Matematyka w chemii"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Chemia fizyczna",
+                                "Technologie chemiczne"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Chemia materiałów",
+                                "Spektroskopia"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Dziennikarstwo i Komunikacja Społeczna",
+                "category": "HUMANISTIC",
+                "description": "Studiuj dziennikarstwo na Uniwersytecie Marii Curie-Skłodowskiej.",
+                "finalsSubjects": [
+                    "Teoria Komunikacji Społecznej",
+                    "Dziennikarstwo Śledcze",
+                    "Media Społecznościowe"
+                ],
+                "interests": [
+                    "Dziennikarstwo Śledcze",
+                    "Nowe Media"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Dziennikarz Śledczy",
+                    "Specjalista ds. Social Media",
+                    "Redaktor Gazety"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "teoria_komunikacji": 0.6,
+                        "angielski": 0.2,
+                        "historia": 0.2
+                    },
+                    "minThreshold": 82
+                },
+                "level": "2",
+                "tuition": 1500,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Teoria komunikacji społecznej",
+                                "Historia dziennikarstwa"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Dziennikarstwo śledcze",
+                                "Media społecznościowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Kultura audiowizualna",
+                                "Etyka dziennikarska"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Lublin",
+            "street": "Marii Curie-Skłodowskiej",
+            "buildingNumber": "5"
+        },
+        "coordinates": {
+            "latitude": 51.2455041,
+            "longitude": 22.5408742
+        },
+        "amenities": [
+            {
+                "name": "Teatr Uniwersytecki",
+                "type": "RECREATION",
+                "distance": 200
+            },
+            {
+                "name": "Klub Literacki",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            },
+            {
+                "name": "Stołówka Studencka",
+                "type": "RESTAURANT",
+                "distance": 300
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Psychologów",
+                "description": "Spotkania i dyskusje na tematy psychologiczne."
+            },
+            {
+                "name": "Studio Radiowe",
+                "description": "Tworzenie i nadawanie programów radiowych."
+            }
+        ],
+        "siteURL": "https://www.umcs.pl/",
+        "scholarships": [
+            "Stypendium naukowe",
+            "Stypendium zaangażowania społecznego"
+        ]
     }
-
 ]""".trimIndent()
