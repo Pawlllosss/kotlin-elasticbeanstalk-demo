@@ -151,8 +151,8 @@ private val mockData: String = """[
             "buildingNumber": "30"
         },
         "coordinates": {
-            "latitude": 50.0671,
-            "longitude": 19.9073
+            "latitude": 50.064528,
+            "longitude": 19.923556
         },
         "amenities": [
             {
@@ -299,8 +299,8 @@ private val mockData: String = """[
             "buildingNumber": "24"
         },
         "coordinates": {
-            "latitude": 50.0537,
-            "longitude": 19.9353
+            "latitude": 50.0610645,
+            "longitude": 19.9328982
         },
         "amenities": [
             {
@@ -460,8 +460,8 @@ private val mockData: String = """[
             "buildingNumber": "27"
         },
         "coordinates": {
-            "latitude": 50.0647,
-            "longitude": 19.9406
+            "latitude": 50.0685649,
+            "longitude": 19.9551201
         },
         "amenities": [
             {
