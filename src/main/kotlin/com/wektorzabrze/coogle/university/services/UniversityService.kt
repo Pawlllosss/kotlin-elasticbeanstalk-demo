@@ -2072,5 +2072,181 @@ private val mockData: String = """[
             "Academic Excellence Scholarship",
             "Sports Scholarship"
         ]
+    },
+    {
+        "name": "Politechnika Warszawska",
+        "rating": 88.0,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gmach_G%C5%82%C3%B3wny_Politechniki_Warszawskiej_2018.jpg/2560px-Gmach_G%C5%82%C3%B3wny_Politechniki_Warszawskiej_2018.jpg",
+        "courseDegrees": [
+            {
+                "name": "Informatyka",
+                "category": "ENGINEERING",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Architektura komputerów",
+                    "Inżynieria oprogramowania",
+                    "Struktury danych"
+                ],
+                "interests": [
+                    "Sztuczna inteligencja",
+                    "Programowanie webowe"
+                ],
+                "occupancy": {
+                    "noPlaces": 200,
+                    "noCandidates": 160
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier oprogramowania",
+                    "Programista systemów wbudowanych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Architektura komputerów": 0.4,
+                        "Inżynieria oprogramowania": 0.4,
+                        "Struktury danych": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "Inżynierskie",
+                "tuition": 4500,
+                "earningsMedian": 6500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do informatyki",
+                                "Elektronika cyfrowa"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Algorytmy i struktury danych",
+                                "Sieci komputerowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Programowanie webowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria mechaniczna",
+                "category": "ENGINEERING",
+                "description": "Studia inżynierskie z inżynierii mechanicznej.",
+                "finalsSubjects": [
+                    "Termodynamika",
+                    "Projektowanie mechaniczne",
+                    "Mechanika płynów"
+                ],
+                "interests": [
+                    "Inżynieria samochodowa",
+                    "Inżynieria lotnicza"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 140
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier mechanik",
+                    "Inżynier lotniczy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Termodynamika": 0.4,
+                        "Projektowanie mechaniczne": 0.4,
+                        "Mechanika płynów": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Inżynierskie",
+                "tuition": 4200,
+                "earningsMedian": 6800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Matematyka inżynierska",
+                                "Wytrzymałość materiałów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Kinematyka i dynamika",
+                                "Termodynamika"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Aerodynamika",
+                                "Projektowanie mechaniczne"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Warszawa",
+            "street": "Plac Politechniki",
+            "buildingNumber": "1"
+        },
+        "coordinates": {
+            "latitude": 52.2209,
+            "longitude": 21.0108
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 250
+            },
+            {
+                "name": "Laboratoria inżynieryjne",
+                "type": "EDUCATIONAL",
+                "distance": 100
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Dostęp dla wózków",
+            "Opis dźwiękowy",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Organizacja studencka dla miłośników informatyki."
+            },
+            {
+                "name": "Klub Inżynierski",
+                "description": "Klub dla studentów pasjonujących się inżynierią."
+            }
+        ],
+        "siteURL": "https://www.pw.edu.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium inżynierskie"
+        ]
     }
+
+
 ]""".trimIndent()
