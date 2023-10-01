@@ -1,5 +1,6 @@
 package com.wektorzabrze.coogle.university.filters.university
 
+import com.fasterxml.jackson.databind.ObjectMapper
 import com.wektorzabrze.coogle.university.University
 import com.wektorzabrze.coogle.university.UniversityType
 import org.junit.jupiter.api.Assertions.*
@@ -9,13 +10,13 @@ class UniversityTypeFilterTest{
 
     @Test
     fun `should filter only private universities`() {
-        val result = UniversityTypeFilter().filter(
+        val result = UniversityTypeFilter(ObjectMapper()).filter(
             listOf(
                 University(type = UniversityType.PRIVATE),
                 University(type = UniversityType.PUBLIC),
                 University(type = UniversityType.PRIVATE),
             ),
-            value = "PRIVATE"
+            value = """["PRIVATE"]"""
         )
 
         assertEquals(2, result.size)
@@ -23,13 +24,13 @@ class UniversityTypeFilterTest{
 
     @Test
     fun `should filter only public universities`() {
-        val result = UniversityTypeFilter().filter(
+        val result = UniversityTypeFilter(ObjectMapper()).filter(
             listOf(
                 University(type = UniversityType.PRIVATE),
                 University(type = UniversityType.PUBLIC),
                 University(type = UniversityType.PRIVATE),
             ),
-            value = "PUBLIC"
+            value = """["PUBLIC"]"""
         )
         assertEquals(1, result.size)
     }
