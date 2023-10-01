@@ -2444,5 +2444,181 @@
             "Stypendium za wyniki w nauce",
             "Stypendium sportowe"
         ]
+    },
+    {
+        "name": "Uniwersytet Wrocławski",
+        "rating": 69.4,
+        "photoUrl": "https://uwr.edu.pl/wp-content/uploads/2018/10/UWr-grafiki-historia6.jpg",
+        "courseDegrees": [
+            {
+                "name": "Psychologia",
+                "category": "SOCIAL",
+                "description": "Studia licencjackie z psychologii.",
+                "finalsSubjects": [
+                    "Psychologia kliniczna",
+                    "Psychologia rozwojowa",
+                    "Techniki terapeutyczne"
+                ],
+                "interests": [
+                    "Psychologia dzieci i młodzieży",
+                    "Psychoterapia"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 90
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psycholog kliniczny",
+                    "Terapeuta"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Psychologia kliniczna": 0.4,
+                        "Psychologia rozwojowa": 0.4,
+                        "Techniki terapeutyczne": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Licencjackie",
+                "tuition": 3500,
+                "earningsMedian": 5500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Metodologia badań"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia osobowości",
+                                "Psychologia dziecka"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychoterapia",
+                                "Neuropsychologia"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Informatyka",
+                "category": "SCIENCE",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Bazy danych",
+                    "Programowanie obiektowe",
+                    "Sztuczna inteligencja"
+                ],
+                "interests": [
+                    "Rozwój aplikacji mobilnych",
+                    "Analiza danych"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 150
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk danych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Bazy danych": 0.4,
+                        "Programowanie obiektowe": 0.4,
+                        "Sztuczna inteligencja": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "Inżynierskie",
+                "tuition": 4200,
+                "earningsMedian": 6500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy programowania",
+                                "Bazy danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Programowanie obiektowe",
+                                "Analiza danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Aplikacje mobilne"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Wrocław",
+            "street": "ul. Uniwersytecka",
+            "buildingNumber": "1"
+        },
+        "coordinates": {
+            "latitude": 51.1089,
+            "longitude": 17.0449
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 250
+            },
+            {
+                "name": "Laboratoria informatyczne",
+                "type": "EDUCATIONAL",
+                "distance": 100
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Dostęp dla wózków",
+            "Opis dźwiękowy",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Psychologii",
+                "description": "Organizacja studencka dla miłośników psychologii."
+            },
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Koło dla studentów pasjonujących się informatyką."
+            }
+        ],
+        "siteURL": "https://www.uni.wroc.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium naukowe"
+        ]
     }
+
+
 ]
