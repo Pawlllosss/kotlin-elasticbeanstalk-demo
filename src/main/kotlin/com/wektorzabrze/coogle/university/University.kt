@@ -16,7 +16,7 @@ data class University(
     var isFavourite: Boolean = false,
     var siteURL: String = "",
     var scholarships: Collection<String> = emptyList(),
-
+    var rating: Double = 0.0
 )
 
 //ranking

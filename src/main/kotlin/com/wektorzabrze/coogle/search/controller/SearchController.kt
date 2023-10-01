@@ -17,6 +17,6 @@ class SearchController(private val service: SearchService, private val objectMap
     fun searchUniversities(@RequestBody searchParameters: JsonNode): Collection<University> {
         val processedSearchParameters =
             searchParameters.fields().asSequence().map { it.key to objectMapper.writeValueAsString(it.value) }.toMap()
-        return service.search(processedSearchParameters)
+        return service.search(processedSearchParameters).sortedByDescending { it.rating }
     }
 }

@@ -1,6 +1,7 @@
 [
     {
         "name": "Akademia Górniczo-Hutnicza",
+        "rating": "83.1",
         "photoUrl": "https://galeria.bankier.pl/p/9/1/67dd4bfafb57a9-945-560-45-168-4455-2672.jpg",
         "courseDegrees": [
             {
@@ -151,6 +152,7 @@
     },
     {
         "name": "Uniwersytet Jagielloński",
+        "rating": "100.0",
         "photoUrl": "https://www.uj.edu.pl/documents/10172/153457045/novumm-685.jpg/ddf817b8-d18f-47dc-bb1c-b3dc90b7238d?t=1683708003900",
         "courseDegrees": [
             {
@@ -312,6 +314,7 @@
     },
     {
         "name": "Uniwersytet Ekonomiczny w Krakowie",
+        "rating": "53.0",
         "photoUrl": "https://biznes.uek.krakow.pl/wp-content/uploads/2018/10/uek_doradztwo_badania_ekspertyzy.jpg",
         "courseDegrees": [
             {
