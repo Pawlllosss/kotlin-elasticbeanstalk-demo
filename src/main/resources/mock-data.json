@@ -4823,6 +4823,7 @@
         "photoUrl": "https://gfx.dlastudenta.pl/fotoalbum/48c/34c/b86/aa8/1163169",
         "courseDegrees": [
             {
+                "stationary": false,
                 "name": "Zarządzanie",
                 "category": "SOCIAL",
                 "description": "Studia licencjackie z zarządzania.",
@@ -5233,6 +5234,424 @@
             }
         ],
         "siteURL": "https://www.kozminski.edu.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium sportowe"
+        ]
+    },
+    {
+        "name": "Akademia WSB w Dąbrowie Górniczej",
+        "rating": 75.6,
+        "photoUrl": "https://www.otouczelnie.pl/assets/uploads/artykul%20kierunek/akademia-wsb.jpg",
+        "courseDegrees": [
+            {
+                "stationary": false,
+                "name": "Informatyka",
+                "category": "SCIENCE",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Programowanie",
+                    "Bazy danych",
+                    "Sztuczna inteligencja"
+                ],
+                "interests": [
+                    "Analiza danych",
+                    "Bezpieczeństwo informatyczne"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk danych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Programowanie": 0.4,
+                        "Bazy danych": 0.4,
+                        "Sztuczna inteligencja": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Inżynierskie",
+                "tuition": 4200,
+                "earningsMedian": 7000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy programowania",
+                                "Bazy danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Programowanie obiektowe",
+                                "Analiza danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Bezpieczeństwo informatyczne"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Psychologia",
+                "category": "SOCIAL",
+                "description": "Studia magisterskie z psychologii.",
+                "finalsSubjects": [
+                    "Psychoterapia",
+                    "Psychologia kliniczna",
+                    "Metody badawcze w psychologii"
+                ],
+                "interests": [
+                    "Psychologia społeczna",
+                    "Psychologia dziecka"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psychoterapeuta",
+                    "Psycholog kliniczny"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Psychoterapia": 0.4,
+                        "Psychologia kliniczna": 0.4,
+                        "Metody badawcze": 0.2
+                    },
+                    "minThreshold": 90
+                },
+                "level": "Magisterskie",
+                "tuition": 4800,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Statystyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia społeczna",
+                                "Psychopatologia"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychologia dziecka",
+                                "Psychoterapia"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Finanse i rachunkowość",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studia licencjackie z finansów i rachunkowości.",
+                "finalsSubjects": [
+                    "Rachunkowość finansowa",
+                    "Finanse przedsiębiorstw",
+                    "Podatki"
+                ],
+                "interests": [
+                    "Audyt",
+                    "Controlling"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 150
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Analityk finansowy",
+                    "Księgowy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Rachunkowość finansowa": 0.4,
+                        "Finanse przedsiębiorstw": 0.4,
+                        "Podatki": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Licencjackie",
+                "tuition": 3800,
+                "earningsMedian": 6700,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do rachunkowości",
+                                "Finanse przedsiębiorstw"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Rachunkowość finansowa",
+                                "Podatki"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Audyt",
+                                "Controlling"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Prawo",
+                "category": "SOCIAL",
+                "description": "Studia magisterskie z prawa.",
+                "finalsSubjects": [
+                    "Prawo cywilne",
+                    "Prawo administracyjne",
+                    "Prawo międzynarodowe"
+                ],
+                "interests": [
+                    "Prawo handlowe",
+                    "Prawo pracy"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Adwokat",
+                    "Radca prawny"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Prawo cywilne": 0.4,
+                        "Prawo administracyjne": 0.4,
+                        "Prawo międzynarodowe": 0.2
+                    },
+                    "minThreshold": 90
+                },
+                "level": "Magisterskie",
+                "tuition": 4800,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do prawa",
+                                "Prawo cywilne"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Prawo administracyjne",
+                                "Prawo międzynarodowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Prawo handlowe",
+                                "Prawo pracy"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Architektura",
+                "category": "ENGINEERING",
+                "description": "Studia magisterskie z architektury.",
+                "finalsSubjects": [
+                    "Historia architektury",
+                    "Projektowanie urbanistyczne",
+                    "Konstrukcje budowlane"
+                ],
+                "interests": [
+                    "Architektura krajobrazu",
+                    "Architektura wnętrz"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Architekt",
+                    "Urbanista"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Historia architektury": 0.4,
+                        "Projektowanie urbanistyczne": 0.4,
+                        "Konstrukcje budowlane": 0.2
+                    },
+                    "minThreshold": 90
+                },
+                "level": "Magisterskie",
+                "tuition": 5000,
+                "earningsMedian": 8000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do architektury",
+                                "Historia architektury"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Projektowanie urbanistyczne",
+                                "Architektura krajobrazu"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Konstrukcje budowlane",
+                                "Architektura wnętrz"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Ekonomia",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studia licencjackie z ekonomii.",
+                "finalsSubjects": [
+                    "Mikroekonomia",
+                    "Makroekonomia",
+                    "Ekonometria"
+                ],
+                "interests": [
+                    "Polityka gospodarcza",
+                    "Rynki finansowe"
+                ],
+                "occupancy": {
+                    "noPlaces": 200,
+                    "noCandidates": 180
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Ekonomista",
+                    "Analityk rynków finansowych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Mikroekonomia": 0.4,
+                        "Makroekonomia": 0.4,
+                        "Ekonometria": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Licencjackie",
+                "tuition": 3800,
+                "earningsMedian": 6700,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do ekonomii",
+                                "Mikroekonomia"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Makroekonomia",
+                                "Rynki finansowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Polityka gospodarcza",
+                                "Ekonometria"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PRIVATE",
+        "address": {
+            "city": "Dąbrowa Górnicza",
+            "street": "ul. Cieplaka",
+            "buildingNumber": "15"
+        },
+        "coordinates": {
+            "latitude": 50.3371,
+            "longitude": 19.2176
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 100
+            },
+            {
+                "name": "Laboratoria naukowe",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 120
+            }
+        ],
+        "accessibilitiesForDisabled": [
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Organizacja studencka dla miłośników informatyki."
+            },
+            {
+                "name": "Koło Naukowe Psychologii",
+                "description": "Organizacja studencka dla miłośników psychologii."
+            },
+            {
+                "name": "Koło Naukowe Ekonomii",
+                "description": "Organizacja studencka dla miłośników ekonomii."
+            },
+            {
+                "name": "Koło Naukowe Prawa",
+                "description": "Organizacja studencka dla miłośników prawa."
+            },
+            {
+                "name": "Koło Naukowe Architektury",
+                "description": "Organizacja studencka dla miłośników architektury."
+            }
+        ],
+        "siteURL": "https://www.wsb.pl/dabrowa-gornicza/",
         "scholarships": [
             "Stypendium za wyniki w nauce",
             "Stypendium sportowe"
