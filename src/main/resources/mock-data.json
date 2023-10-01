@@ -1103,5 +1103,765 @@
             "Stypendium Sportowe",
             "Stypendium dla Olimpijczyków"
         ]
+    },
+    {
+        "name": "Uniwersytet Rolniczy w Krakowie",
+        "rating": 54.0,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/JKRUK_20070524_AR_Krakow.jpg",
+        "courseDegrees": [
+            {
+                "name": "Rolnictwo",
+                "category": "NATURAL",
+                "description": "Zajmij się produkcją roślinną i zwierzęcą, zdobądź wiedzę z zakresu agronomii.",
+                "finalsSubjects": [
+                    "Biologia",
+                    "Chemia",
+                    "Matematyka"
+                ],
+                "interests": [
+                    "Hodowla Zwierząt",
+                    "Zrównoważone Rolnictwo"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Rolnik",
+                    "Doradca Rolny",
+                    "Specjalista ds. Zrównoważonego Rozwoju"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "biologia": 0.5,
+                        "matematyka": 0.5
+                    },
+                    "minThreshold": 50
+                },
+                "level": "1lic",
+                "tuition": 0,
+                "earningsMedian": 6000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wstęp do agronomii",
+                                "Biologia roślin"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Chemia rolno-spożywcza",
+                                "Genetyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Ochrona roślin",
+                                "Matematyka w rolnictwie"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Środowiska",
+                "category": "ENGINEERING",
+                "description": "Studiuj ochronę środowiska, gospodarkę wodną i problemy zanieczyszczeń.",
+                "finalsSubjects": [
+                    "Biologia",
+                    "Chemia",
+                    "Matematyka"
+                ],
+                "interests": [
+                    "Ochrona Powietrza",
+                    "Gospodarka Odpadami"
+                ],
+                "occupancy": {
+                    "noPlaces": 90,
+                    "noCandidates": 70
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Środowiska",
+                    "Specjalista ds. Ochrony Powietrza"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "biologia": 0.4,
+                        "chemia": 0.4,
+                        "matematyka": 0.2
+                    },
+                    "minThreshold": 60
+                },
+                "level": "1lic",
+                "tuition": 0,
+                "earningsMedian": 6500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy ochrony środowiska",
+                                "Biologia molekularna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Chemia środowiskowa",
+                                "Inżynieria wodna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Gospodarka odpadami",
+                                "Matematyka stosowana w środowisku"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Zootechnika",
+                "category": "NATURAL",
+                "description": "Zajmij się hodowlą zwierząt, zdobądź wiedzę z zakresu zootechniki.",
+                "finalsSubjects": [
+                    "Biologia",
+                    "Chemia",
+                    "Matematyka"
+                ],
+                "interests": [
+                    "Hodowla Zwierząt",
+                    "Genetyka Zwierząt"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Hodowca Zwierząt",
+                    "Specjalista ds. Genetyki Zwierząt"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "biologia": 0.5,
+                        "chemia": 0.3,
+                        "matematyka": 0.2
+                    },
+                    "minThreshold": 55
+                },
+                "level": "1lic",
+                "tuition": 0,
+                "earningsMedian": 5800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do zootechniki",
+                                "Biologia zwierząt"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Chemia organiczna",
+                                "Rozród zwierząt"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Genetyka ogólna",
+                                "Matematyka w zootechnice"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Kraków",
+            "street": "Mickiewicza",
+            "buildingNumber": "21"
+        },
+        "coordinates": {
+            "latitude": 50.0649014,
+            "longitude": 19.9247613
+        },
+        "amenities": [
+            {
+                "name": "Stołówka Studencka",
+                "type": "RESTAURANT",
+                "distance": 150
+            },
+            {
+                "name": "Klub Naukowy Przyrodniczy",
+                "type": "RECREATION",
+                "distance": 250
+            },
+            {
+                "name": "Księgarnia Akademicka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Zootechników",
+                "description": "Społeczność studencka zainteresowana zootechniką."
+            },
+            {
+                "name": "Klub Ekologii",
+                "description": "Dla studentów zainteresowanych ochroną środowiska."
+            }
+        ],
+        "siteURL": "https://urk.edu.pl/",
+        "scholarships": [
+            "Stypendium socjalne",
+            "Stypendium za wyniki w nauce"
+        ]
+    },
+    {
+        "name": "Politechnika Krakowska",
+        "rating": 61.9,
+        "photoUrl": "https://i.nocimg.pl/d11/333/102-krakow-politechnika-krakowska-im-tadeusza.jpg",
+        "courseDegrees": [
+            {
+                "name": "Informatyka",
+                "category": "INFORMATION",
+                "description": "Zdobądź wiedzę z zakresu informatyki i programowania.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Fizyka",
+                    "Informatyka"
+                ],
+                "interests": [
+                    "Programowanie",
+                    "Sztuczna Inteligencja"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk Systemowy",
+                    "Inżynier Oprogramowania"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.6,
+                        "informatyka": 0.4
+                    },
+                    "minThreshold": 75
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 8000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do programowania",
+                                "Matematyka dyskretna"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Algorytmy i struktury danych",
+                                "Programowanie obiektowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Bazy danych",
+                                "Inżynieria oprogramowania"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Elektryczna",
+                "category": "ENGINEERING",
+                "description": "Studiuj zagadnienia związane z elektrotechniką i elektroniką.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Fizyka",
+                    "Elektrotechnika"
+                ],
+                "interests": [
+                    "Energetyka",
+                    "Automatyka"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Elektryk",
+                    "Specjalista ds. Automatyki",
+                    "Projektant Układów Elektronicznych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.5,
+                        "fizyka": 0.3,
+                        "elektrotechnika": 0.2
+                    },
+                    "minThreshold": 70
+                },
+                "level": "1inz",
+                "tuition": 0,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy elektrotechniki",
+                                "Matematyka dla inżynierów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Fizyka techniczna",
+                                "Elektronika analogowa"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Automatyka",
+                                "Systemy mikroprocesorowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Mechaniczna",
+                "category": "ENGINEERING",
+                "description": "Zdobądź wiedzę z zakresu mechaniki i projektowania konstrukcji.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Fizyka",
+                    "Informatyka"
+                ],
+                "interests": [
+                    "Konstrukcje Maszyn",
+                    "Inżynieria Materiałowa"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Mechanik",
+                    "Projektant Konstrukcji"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.4,
+                        "fizyka": 0.4,
+                        "informatyka": 0.2
+                    },
+                    "minThreshold": 65
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 7800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy mechaniki",
+                                "Matematyka dla inżynierów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Technologie materiałowe",
+                                "Rysunek techniczny"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Modelowanie komputerowe",
+                                "Inżynieria oprogramowania"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria Chemiczna",
+                "category": "ENGINEERING",
+                "description": "Studiuj procesy chemiczne i technologię materiałów.",
+                "finalsSubjects": [
+                    "Matematyka",
+                    "Chemia",
+                    "Fizyka"
+                ],
+                "interests": [
+                    "Technologia Chemiczna",
+                    "Inżynieria Materiałowa"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier Procesu",
+                    "Technolog Chemiczny",
+                    "Inżynier Materiałowy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "matematyka": 0.4,
+                        "chemia": 0.4,
+                        "fizyka": 0.2
+                    },
+                    "minThreshold": 70
+                },
+                "level": "2",
+                "tuition": 0,
+                "earningsMedian": 7600,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy chemii",
+                                "Matematyka dla inżynierów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Technologia materiałów",
+                                "Chemia organiczna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Inżynieria reaktorów chemicznych",
+                                "Procesy jednostkowe"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Kraków",
+            "street": "Warszawska",
+            "buildingNumber": "24"
+        },
+        "coordinates": {
+            "latitude": 50.0720447,
+            "longitude": 19.9427642
+        },
+        "amenities": [
+            {
+                "name": "Kawiarnia na Kampusie",
+                "type": "RESTAURANT",
+                "distance": 200
+            },
+            {
+                "name": "Centrum Rekreacji Studenckiej",
+                "type": "RECREATION",
+                "distance": 300
+            },
+            {
+                "name": "Sklep Akademicki",
+                "type": "SHOP",
+                "distance": 200
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Inżynierów Mechaników",
+                "description": "Społeczność studentów inżynierii mechanicznej."
+            },
+            {
+                "name": "Klub Chemików",
+                "description": "Dla pasjonatów chemii i inżynierii chemicznej."
+            }
+        ],
+        "siteURL": "https://www.pk.edu.pl/",
+        "scholarships": [
+            "Stypendium socjalne",
+            "Stypendium za wyniki w nauce"
+        ]
+    },
+    {
+        "name": "Wyższa Szkoła Zarządzania i Bankowości",
+        "rating": 36.4,
+        "photoUrl": "https://www.pomaturze.pl/pliki/galeria/wyzsza_szkola_zarzadzania_i_bankowosci_krakow_2021.jpg",
+        "courseDegrees": [
+            {
+                "name": "Zarządzanie",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studiuj teorie i praktykę zarządzania firmami.",
+                "finalsSubjects": [
+                    "Ekonomia",
+                    "Zarządzanie",
+                    "Psychologia Organizacji"
+                ],
+                "interests": [
+                    "Strategiczne Planowanie",
+                    "Negocjacje Biznesowe"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Manager",
+                    "Specjalista ds. Zarządzania Projektem"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "ekonomia": 0.4,
+                        "zarządzanie": 0.4,
+                        "psychologia": 0.2
+                    },
+                    "minThreshold": 70
+                },
+                "level": "1",
+                "tuition": 3000,
+                "earningsMedian": 7000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do ekonomii",
+                                "Podstawy zarządzania"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia organizacji",
+                                "Rachunkowość"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Marketing",
+                                "Zarządzanie projektami"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Bankowość",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Zdobądź wiedzę z zakresu bankowości i finansów.",
+                "finalsSubjects": [
+                    "Rachunkowość",
+                    "Finanse",
+                    "Prawo Bankowe"
+                ],
+                "interests": [
+                    "Analiza Finansowa",
+                    "Bankowość Inwestycyjna"
+                ],
+                "occupancy": {
+                    "noPlaces": 100,
+                    "noCandidates": 80
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Analityk Finansowy",
+                    "Specjalista ds. Produktów Bankowych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "rachunkowosc": 0.4,
+                        "finanse": 0.4,
+                        "prawo": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "2",
+                "tuition": 3200,
+                "earningsMedian": 7500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy rachunkowości",
+                                "Finanse przedsiębiorstw"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Prawo bankowe",
+                                "Bankowość inwestycyjna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Systemy płatności",
+                                "Audyt finansowy"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "E-Commerce",
+                "category": "BUSINESS_AND_ECONOMICS",
+                "description": "Studiuj technologie e-commerce i elektronicznego biznesu.",
+                "finalsSubjects": [
+                    "Informatyka",
+                    "Marketing internetowy",
+                    "Analiza rynku e-commerce"
+                ],
+                "interests": [
+                    "E-Biznes",
+                    "E-Marketing"
+                ],
+                "occupancy": {
+                    "noPlaces": 60,
+                    "noCandidates": 50
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Specjalista ds. E-Commerce",
+                    "Kierownik Sklepu Internetowego"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "informatyka": 0.5,
+                        "marketing": 0.3,
+                        "analiza": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "2",
+                "tuition": 3400,
+                "earningsMedian": 7800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Informatyka",
+                                "Podstawy marketingu"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Analiza rynku e-commerce",
+                                "Technologie e-biznesu"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Zarządzanie relacjami z klientem",
+                                "Bezpieczeństwo e-commerce"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PRIVATE",
+        "address": {
+            "city": "Kraków",
+            "street": "aleja Kijowska",
+            "buildingNumber": "14"
+        },
+        "coordinates": {
+            "latitude": 50.0719303,
+            "longitude": 19.9153768
+        },
+        "amenities": [
+            {
+                "name": "Kawiarnia Studencka",
+                "type": "RESTAURANT",
+                "distance": 150
+            },
+            {
+                "name": "Klub Biznesowy",
+                "type": "RECREATION",
+                "distance": 200
+            },
+            {
+                "name": "Sklep Edukacyjny",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Zarządzania",
+                "description": "Społeczność studentów zainteresowanych zarządzaniem."
+            },
+            {
+                "name": "Klub Finansowy",
+                "description": "Dla miłośników finansów i bankowości."
+            }
+        ],
+        "siteURL": "https://www.wszib.edu.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium sportowe"
+        ]
     }
 ]
