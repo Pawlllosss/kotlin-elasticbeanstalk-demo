@@ -3027,5 +3027,243 @@
             "Stypendium zaangażowania społecznego",
             "Stypendium dla najlepszych studentów"
         ]
+    },
+    {
+        "name": "Uniwersytet Łódzki",
+        "rating": 62.0,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%C5%81%C3%B3d%C5%BA%2C_Uniwersytet_%C5%81%C3%B3dzki_Rektorat_Uniwersytetu_%C5%81%C3%B3dzkiego_-_nowy_-_panoramio_%281%29.jpg",
+        "courseDegrees": [
+            {
+                "name": "Psychologia",
+                "category": "SOCIAL",
+                "description": "Studia licencjackie z psychologii.",
+                "finalsSubjects": [
+                    "Psychologia kliniczna",
+                    "Psychologia rozwojowa",
+                    "Metody badawcze w psychologii"
+                ],
+                "interests": [
+                    "Psychoterapia",
+                    "Psychologia dziecka i młodzieży"
+                ],
+                "occupancy": {
+                    "noPlaces": 150,
+                    "noCandidates": 120
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Psycholog kliniczny",
+                    "Psychoterapeuta"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Psychologia kliniczna": 0.4,
+                        "Psychologia rozwojowa": 0.4,
+                        "Metody badawcze": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Licencjackie",
+                "tuition": 3600,
+                "earningsMedian": 5800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do psychologii",
+                                "Statystyka"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Psychologia osobowości",
+                                "Psychopatologia"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Psychoterapia",
+                                "Psychologia dziecka"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Informatyka",
+                "category": "SCIENCE",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Bazy danych",
+                    "Programowanie obiektowe",
+                    "Sztuczna inteligencja"
+                ],
+                "interests": [
+                    "Analiza danych",
+                    "Bezpieczeństwo informatyczne"
+                ],
+                "occupancy": {
+                    "noPlaces": 200,
+                    "noCandidates": 160
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Programista",
+                    "Analityk danych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Bazy danych": 0.4,
+                        "Programowanie obiektowe": 0.4,
+                        "Sztuczna inteligencja": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Inżynierskie",
+                "tuition": 4500,
+                "earningsMedian": 6800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Podstawy programowania",
+                                "Bazy danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Programowanie obiektowe",
+                                "Analiza danych"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Bezpieczeństwo informatyczne"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Filologia Angielska",
+                "category": "HUMANISTIC",
+                "description": "Studia licencjackie z filologii angielskiej.",
+                "finalsSubjects": [
+                    "Gramatyka angielska",
+                    "Literatura angielska",
+                    "Tłumaczenie literatury"
+                ],
+                "interests": [
+                    "Lingwistyka stosowana",
+                    "Tłumaczenia specjalistyczne"
+                ],
+                "occupancy": {
+                    "noPlaces": 120,
+                    "noCandidates": 100
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Tłumacz",
+                    "Nauczyciel języka angielskiego"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Gramatyka angielska": 0.4,
+                        "Literatura angielska": 0.4,
+                        "Tłumaczenie literatury": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "Licencjackie",
+                "tuition": 3500,
+                "earningsMedian": 6000,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do filologii angielskiej",
+                                "Gramatyka angielska"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Literatura angielska",
+                                "Historia języka angielskiego"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Tłumaczenie literatury",
+                                "Lingwistyka stosowana"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Łódź",
+            "street": "ul. Pomorska",
+            "buildingNumber": "171/173"
+        },
+        "coordinates": {
+            "latitude": 51.7482,
+            "longitude": 19.4499
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 200
+            },
+            {
+                "name": "Laboratoria komputerowe",
+                "type": "EDUCATIONAL",
+                "distance": 150
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Dostęp dla wózków",
+            "Opis dźwiękowy",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Psychologii",
+                "description": "Organizacja studencka dla miłośników psychologii."
+            },
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Koło dla studentów pasjonujących się informatyką."
+            },
+            {
+                "name": "Koło Naukowe Filologii Angielskiej",
+                "description": "Organizacja studencka dla miłośników języka angielskiego."
+            }
+        ],
+        "siteURL": "https://www.uni.lodz.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium naukowe"
+        ]
     }
+
 ]
