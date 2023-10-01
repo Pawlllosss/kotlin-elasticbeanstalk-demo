@@ -2074,6 +2074,180 @@ private val mockData: String = """[
         ]
     },
     {
+        "name": "Politechnika Warszawska",
+        "rating": 88.0,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gmach_G%C5%82%C3%B3wny_Politechniki_Warszawskiej_2018.jpg/2560px-Gmach_G%C5%82%C3%B3wny_Politechniki_Warszawskiej_2018.jpg",
+        "courseDegrees": [
+            {
+                "name": "Informatyka",
+                "category": "ENGINEERING",
+                "description": "Studia inżynierskie z informatyki.",
+                "finalsSubjects": [
+                    "Architektura komputerów",
+                    "Inżynieria oprogramowania",
+                    "Struktury danych"
+                ],
+                "interests": [
+                    "Sztuczna inteligencja",
+                    "Programowanie webowe"
+                ],
+                "occupancy": {
+                    "noPlaces": 200,
+                    "noCandidates": 160
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier oprogramowania",
+                    "Programista systemów wbudowanych"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Architektura komputerów": 0.4,
+                        "Inżynieria oprogramowania": 0.4,
+                        "Struktury danych": 0.2
+                    },
+                    "minThreshold": 75
+                },
+                "level": "Inżynierskie",
+                "tuition": 4500,
+                "earningsMedian": 6500,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do informatyki",
+                                "Elektronika cyfrowa"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Algorytmy i struktury danych",
+                                "Sieci komputerowe"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Sztuczna inteligencja",
+                                "Programowanie webowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Inżynieria mechaniczna",
+                "category": "ENGINEERING",
+                "description": "Studia inżynierskie z inżynierii mechanicznej.",
+                "finalsSubjects": [
+                    "Termodynamika",
+                    "Projektowanie mechaniczne",
+                    "Mechanika płynów"
+                ],
+                "interests": [
+                    "Inżynieria samochodowa",
+                    "Inżynieria lotnicza"
+                ],
+                "occupancy": {
+                    "noPlaces": 180,
+                    "noCandidates": 140
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Inżynier mechanik",
+                    "Inżynier lotniczy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "Termodynamika": 0.4,
+                        "Projektowanie mechaniczne": 0.4,
+                        "Mechanika płynów": 0.2
+                    },
+                    "minThreshold": 80
+                },
+                "level": "Inżynierskie",
+                "tuition": 4200,
+                "earningsMedian": 6800,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Matematyka inżynierska",
+                                "Wytrzymałość materiałów"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Kinematyka i dynamika",
+                                "Termodynamika"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Aerodynamika",
+                                "Projektowanie mechaniczne"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PUBLIC",
+        "address": {
+            "city": "Warszawa",
+            "street": "Plac Politechniki",
+            "buildingNumber": "1"
+        },
+        "coordinates": {
+            "latitude": 52.2209,
+            "longitude": 21.0108
+        },
+        "amenities": [
+            {
+                "name": "Studencka kafeteria",
+                "type": "RESTAURANT",
+                "distance": 250
+            },
+            {
+                "name": "Laboratoria inżynieryjne",
+                "type": "EDUCATIONAL",
+                "distance": 100
+            },
+            {
+                "name": "Biblioteka",
+                "type": "EDUCATIONAL",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Dostęp dla wózków",
+            "Opis dźwiękowy",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Koło Naukowe Informatyki",
+                "description": "Organizacja studencka dla miłośników informatyki."
+            },
+            {
+                "name": "Klub Inżynierski",
+                "description": "Klub dla studentów pasjonujących się inżynierią."
+            }
+        ],
+        "siteURL": "https://www.pw.edu.pl/",
+        "scholarships": [
+            "Stypendium za wyniki w nauce",
+            "Stypendium inżynierskie"
+        ]
+    },
+    {
         "name": "Politechnika Poznańska",
         "rating": 71.3,
         "photoUrl": "https://www.pomaturze.pl/pliki/galeria/PP-1_0.jpg",
@@ -2307,123 +2481,123 @@ private val mockData: String = """[
         ]
     },
     {
-        "name": "Politechnika Warszawska",
-        "rating": 88.0,
-        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gmach_G%C5%82%C3%B3wny_Politechniki_Warszawskiej_2018.jpg/2560px-Gmach_G%C5%82%C3%B3wny_Politechniki_Warszawskiej_2018.jpg",
+        "name": "Uniwersytet Wrocławski",
+        "rating": 69.4,
+        "photoUrl": "https://uwr.edu.pl/wp-content/uploads/2018/10/UWr-grafiki-historia6.jpg",
         "courseDegrees": [
             {
-                "name": "Informatyka",
-                "category": "ENGINEERING",
-                "description": "Studia inżynierskie z informatyki.",
+                "name": "Psychologia",
+                "category": "SOCIAL",
+                "description": "Studia licencjackie z psychologii.",
                 "finalsSubjects": [
-                    "Architektura komputerów",
-                    "Inżynieria oprogramowania",
-                    "Struktury danych"
+                    "Psychologia kliniczna",
+                    "Psychologia rozwojowa",
+                    "Techniki terapeutyczne"
                 ],
                 "interests": [
-                    "Sztuczna inteligencja",
-                    "Programowanie webowe"
+                    "Psychologia dzieci i młodzieży",
+                    "Psychoterapia"
                 ],
                 "occupancy": {
-                    "noPlaces": 200,
-                    "noCandidates": 160
+                    "noPlaces": 120,
+                    "noCandidates": 90
                 },
                 "language": "Polski",
                 "occupations": [
-                    "Inżynier oprogramowania",
-                    "Programista systemów wbudowanych"
+                    "Psycholog kliniczny",
+                    "Terapeuta"
                 ],
                 "examThreshold": {
                     "subjectToWeightMap": {
-                        "Architektura komputerów": 0.4,
-                        "Inżynieria oprogramowania": 0.4,
-                        "Struktury danych": 0.2
+                        "Psychologia kliniczna": 0.4,
+                        "Psychologia rozwojowa": 0.4,
+                        "Techniki terapeutyczne": 0.2
                     },
-                    "minThreshold": 75
+                    "minThreshold": 80
                 },
-                "level": "Inżynierskie",
-                "tuition": 4500,
-                "earningsMedian": 6500,
+                "level": "Licencjackie",
+                "tuition": 3500,
+                "earningsMedian": 5500,
                 "syllabus": {
                     "semesters": [
                         {
                             "ordinal": 1,
                             "subjects": [
-                                "Wprowadzenie do informatyki",
-                                "Elektronika cyfrowa"
+                                "Wprowadzenie do psychologii",
+                                "Metodologia badań"
                             ]
                         },
                         {
                             "ordinal": 2,
                             "subjects": [
-                                "Algorytmy i struktury danych",
-                                "Sieci komputerowe"
+                                "Psychologia osobowości",
+                                "Psychologia dziecka"
                             ]
                         },
                         {
                             "ordinal": 3,
                             "subjects": [
-                                "Sztuczna inteligencja",
-                                "Programowanie webowe"
+                                "Psychoterapia",
+                                "Neuropsychologia"
                             ]
                         }
                     ]
                 }
             },
             {
-                "name": "Inżynieria mechaniczna",
-                "category": "ENGINEERING",
-                "description": "Studia inżynierskie z inżynierii mechanicznej.",
+                "name": "Informatyka",
+                "category": "SCIENCE",
+                "description": "Studia inżynierskie z informatyki.",
                 "finalsSubjects": [
-                    "Termodynamika",
-                    "Projektowanie mechaniczne",
-                    "Mechanika płynów"
+                    "Bazy danych",
+                    "Programowanie obiektowe",
+                    "Sztuczna inteligencja"
                 ],
                 "interests": [
-                    "Inżynieria samochodowa",
-                    "Inżynieria lotnicza"
+                    "Rozwój aplikacji mobilnych",
+                    "Analiza danych"
                 ],
                 "occupancy": {
                     "noPlaces": 180,
-                    "noCandidates": 140
+                    "noCandidates": 150
                 },
                 "language": "Polski",
                 "occupations": [
-                    "Inżynier mechanik",
-                    "Inżynier lotniczy"
+                    "Programista",
+                    "Analityk danych"
                 ],
                 "examThreshold": {
                     "subjectToWeightMap": {
-                        "Termodynamika": 0.4,
-                        "Projektowanie mechaniczne": 0.4,
-                        "Mechanika płynów": 0.2
+                        "Bazy danych": 0.4,
+                        "Programowanie obiektowe": 0.4,
+                        "Sztuczna inteligencja": 0.2
                     },
-                    "minThreshold": 80
+                    "minThreshold": 75
                 },
                 "level": "Inżynierskie",
                 "tuition": 4200,
-                "earningsMedian": 6800,
+                "earningsMedian": 6500,
                 "syllabus": {
                     "semesters": [
                         {
                             "ordinal": 1,
                             "subjects": [
-                                "Matematyka inżynierska",
-                                "Wytrzymałość materiałów"
+                                "Podstawy programowania",
+                                "Bazy danych"
                             ]
                         },
                         {
                             "ordinal": 2,
                             "subjects": [
-                                "Kinematyka i dynamika",
-                                "Termodynamika"
+                                "Programowanie obiektowe",
+                                "Analiza danych"
                             ]
                         },
                         {
                             "ordinal": 3,
                             "subjects": [
-                                "Aerodynamika",
-                                "Projektowanie mechaniczne"
+                                "Sztuczna inteligencja",
+                                "Aplikacje mobilne"
                             ]
                         }
                     ]
@@ -2432,13 +2606,13 @@ private val mockData: String = """[
         ],
         "type": "PUBLIC",
         "address": {
-            "city": "Warszawa",
-            "street": "Plac Politechniki",
+            "city": "Wrocław",
+            "street": "ul. Uniwersytecka",
             "buildingNumber": "1"
         },
         "coordinates": {
-            "latitude": 52.2209,
-            "longitude": 21.0108
+            "latitude": 51.1089,
+            "longitude": 17.0449
         },
         "amenities": [
             {
@@ -2447,7 +2621,7 @@ private val mockData: String = """[
                 "distance": 250
             },
             {
-                "name": "Laboratoria inżynieryjne",
+                "name": "Laboratoria informatyczne",
                 "type": "EDUCATIONAL",
                 "distance": 100
             },
@@ -2466,18 +2640,20 @@ private val mockData: String = """[
         ],
         "clubs": [
             {
-                "name": "Koło Naukowe Informatyki",
-                "description": "Organizacja studencka dla miłośników informatyki."
+                "name": "Koło Naukowe Psychologii",
+                "description": "Organizacja studencka dla miłośników psychologii."
             },
             {
-                "name": "Klub Inżynierski",
-                "description": "Klub dla studentów pasjonujących się inżynierią."
+                "name": "Koło Naukowe Informatyki",
+                "description": "Koło dla studentów pasjonujących się informatyką."
             }
         ],
-        "siteURL": "https://www.pw.edu.pl/",
+        "siteURL": "https://www.uni.wroc.pl/",
         "scholarships": [
             "Stypendium za wyniki w nauce",
-            "Stypendium inżynierskie"
+            "Stypendium naukowe"
         ]
     }
+
+
 ]""".trimIndent()
