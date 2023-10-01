@@ -18,7 +18,9 @@ class GraduationExamCourseDegreeFilter(val objectMapper: ObjectMapper, private v
         }
 
         val userScoreBySubject = userService.getUserFinalsBySubject()
-
+        if (userScoreBySubject.isEmpty()) {
+            return courseDegrees
+        }
         return courseDegrees
             .filter { courseDegree ->
 
