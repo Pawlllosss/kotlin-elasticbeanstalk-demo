@@ -5656,6 +5656,240 @@
             "Stypendium za wyniki w nauce",
             "Stypendium sportowe"
         ]
+    },
+    {
+        "name": "Akademia Kultury Społecznej i Medialnej",
+        "rating": 41.4,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/WSKSiM_w_Toruniu7.jpg/1200px-WSKSiM_w_Toruniu7.jpg",
+        "courseDegrees": [
+            {
+                "name": "Dziennikarstwo",
+                "category": "HUMANISTIC",
+                "description": "Studiuj dziennikarstwo na Akademii Kultury Społecznej i Medialnej.",
+                "finalsSubjects": [
+                    "Teoria Komunikacji Medialnej",
+                    "Reportaż Telewizyjny",
+                    "Etyka Dziennikarska"
+                ],
+                "interests": [
+                    "Dziennikarstwo Śledcze",
+                    "Dziennikarstwo Obrazkowe"
+                ],
+                "occupancy": {
+                    "noPlaces": 80,
+                    "noCandidates": 60
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Dziennikarz Telewizyjny",
+                    "Redaktor Gazety",
+                    "Reporter Śledczy"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "teoria_komunikacji": 0.5,
+                        "etyka_dziennikarska": 0.3,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 85
+                },
+                "level": "1",
+                "tuition": 1900,
+                "earningsMedian": 7600,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Wprowadzenie do dziennikarstwa",
+                                "Podstawy teorii komunikacji medialnej"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Reportaż telewizyjny",
+                                "Etyka dziennikarska"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Dziennikarstwo śledcze",
+                                "Dziennikarstwo obrazkowe"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Kulturoznawstwo",
+                "category": "HUMANISTIC",
+                "description": "Zajmuj się kulturoznawstwem na Akademii Kultury Społecznej i Medialnej.",
+                "finalsSubjects": [
+                    "Teoria Kultury",
+                    "Socjologia Kultury",
+                    "Media a Kultura Współczesna"
+                ],
+                "interests": [
+                    "Kultura Popularna",
+                    "Kultura Młodzieżowa"
+                ],
+                "occupancy": {
+                    "noPlaces": 70,
+                    "noCandidates": 50
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Kulturoznawca",
+                    "Kurator Wystaw",
+                    "Specjalista ds. Kultury"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "teoria_kultury": 0.6,
+                        "socjologia_kultury": 0.4
+                    },
+                    "minThreshold": 80
+                },
+                "level": "1inz",
+                "tuition": 2000,
+                "earningsMedian": 7400,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Teoria kultury",
+                                "Wprowadzenie do socjologii kultury"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Socjologia kultury",
+                                "Media a kultura współczesna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Kultura popularna",
+                                "Kultura młodzieżowa"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Socjologia Komunikacji Społecznej",
+                "category": "SOCIAL",
+                "description": "Studiuj socjologię komunikacji społecznej na Akademii Kultury Społecznej i Medialnej.",
+                "finalsSubjects": [
+                    "Teorie Komunikacji Społecznej",
+                    "Badania Opinii Publicznej",
+                    "Psychologia Społeczna"
+                ],
+                "interests": [
+                    "Komunikacja Interpersonalna",
+                    "Marketing Społeczny"
+                ],
+                "occupancy": {
+                    "noPlaces": 60,
+                    "noCandidates": 40
+                },
+                "language": "Polski",
+                "occupations": [
+                    "Analityk Rynku",
+                    "Specjalista ds. Komunikacji Społecznej",
+                    "Badacz Opinii Publicznej"
+                ],
+                "examThreshold": {
+                    "subjectToWeightMap": {
+                        "teorie_komunikacji_spolecznej": 0.5,
+                        "psychologia_spoleczna": 0.3,
+                        "angielski": 0.2
+                    },
+                    "minThreshold": 82
+                },
+                "level": "2",
+                "tuition": 2100,
+                "earningsMedian": 7700,
+                "syllabus": {
+                    "semesters": [
+                        {
+                            "ordinal": 1,
+                            "subjects": [
+                                "Teorie komunikacji społecznej",
+                                "Wprowadzenie do badań opinii publicznej"
+                            ]
+                        },
+                        {
+                            "ordinal": 2,
+                            "subjects": [
+                                "Badania opinii publicznej",
+                                "Psychologia społeczna"
+                            ]
+                        },
+                        {
+                            "ordinal": 3,
+                            "subjects": [
+                                "Komunikacja interpersonalna",
+                                "Marketing społeczny"
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "type": "PRIVATE",
+        "address": {
+            "city": "Toruń",
+            "street": "Droga Starotoruńska",
+            "buildingNumber": "3"
+        },
+        "coordinates": {
+            "latitude": 53.0184784,
+            "longitude": 18.5136364
+        },
+        "amenities": [
+            {
+                "name": "Kawiarnia Artystyczna",
+                "type": "RESTAURANT",
+                "distance": 120
+            },
+            {
+                "name": "Stowarzyszenie Kulturoznawców",
+                "type": "EDUCATIONAL",
+                "distance": 90
+            },
+            {
+                "name": "Klub Taneczny",
+                "type": "RECREATION",
+                "distance": 180
+            }
+        ],
+        "accessibilitiesForDisabled": [
+            "Rampa",
+            "Winda",
+            "Schody Ruchome",
+            "Audiodeskrypcja",
+            "Przyciski Braille'a"
+        ],
+        "clubs": [
+            {
+                "name": "Debata Akademicka",
+                "description": "Spotkania studenckie poświęcone różnorodnym tematom kulturowym."
+            },
+            {
+                "name": "Studenckie Koło Fotograficzne",
+                "description": "Wspólne wyjścia i projekty fotograficzne."
+            }
+        ],
+        "siteURL": "https://www.aksim.edu.pl/",
+        "scholarships": [
+            "Stypendium naukowe",
+            "Stypendium artystyczne"
+        ]
     }
-
 ]
