@@ -1921,7 +1921,7 @@ private val mockData: String = """[
                     "noPlaces": 150,
                     "noCandidates": 120
                 },
-                "language": "Polish",
+                "language": "Polski",
                 "occupations": [
                     "Software Engineer",
                     "Data Analyst"
@@ -1980,7 +1980,7 @@ private val mockData: String = """[
                     "noPlaces": 120,
                     "noCandidates": 90
                 },
-                "language": "Polish",
+                "language": "Polski",
                 "occupations": [
                     "Clinical Psychologist",
                     "Counselor"
@@ -5920,7 +5920,7 @@ private val mockData: String = """[
                 "name": "Studenckie Koło Fotograficzne",
                 "description": "Wspólne wyjścia i projekty fotograficzne."
             }
-        ],
+        ], 
         "siteURL": "https://www.aksim.edu.pl/",
         "scholarships": [
             "Stypendium naukowe",
